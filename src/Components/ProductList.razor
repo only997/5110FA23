@@ -52,7 +52,15 @@
                         @foreach (var product in productListGroup)
                         {
                             <div class="card">
-                                <div class="card-img" style="background-image: url('@product.Image');">
+                                <div class="flip-card">
+                                    <div class="flip-card-inner">
+                                        <div class="flip-card-front">
+                                            <img src="@product.Image" class="card-appearance">
+                                        </div>
+                                        <div class="flip-card-back">
+                                            <p>@product.Title</p>
+                                        </div>
+                                    </div>
                                 </div>
                                 <div class="card-body">
                                     <h5 class="card-title">@product.Title</h5>
