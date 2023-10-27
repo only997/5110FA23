@@ -35,8 +35,10 @@ Included items must then not match any entries in the exclude list to remain inc
 								<ModulePath>.*CPPUnitTestFramework.*</ModulePath>
 								<ModulePath>.*anglesharpwrappers.*</ModulePath>
 								<ModulePath>.*NUnit.*</ModulePath>
+								<ModulePath>.*bunit.*</ModulePath>
 								<ModulePath>.*moq.*</ModulePath>
 								<ModulePath>.*AspNetCoreGeneratedDocument.*</ModulePath>
+								<ModulePath>.*biliweb.views.*</ModulePath>								
                 <ModulePath>.*bunit.core.*</ModulePath>
                 <ModulePath>.*bunit.web.*</ModulePath>
               </Exclude>
