@@ -10,12 +10,11 @@
             <tr>
                 <!--Setting column name as Planet-->
                 <th> Products </th>
-                <!--Setting column name as Action-->
-                <th> Action </th>
+
             </tr>
         </thead>
         <tbody>
-            @foreach (var product in ProductService.GetAllData())
+            @foreach (var product in ProductService.GetAllData().OrderBy(m => m.Title))
             {
                 <tr>
                     <!--Display title of each entry in the products.json file-->
@@ -24,7 +23,11 @@
                     </td>
                     <!--Display link to each entry in the products.json file -->
                     <td>
-                        <a href="./Product/Read/@product.Id" class="btn btn-yellow btn-warning">Read More</a>
+                        <a href="./Product/Read/@product.Id" class="btn btn-success">Read More</a>
+                    </td>
+                    <!--Display link to each entry in the products.json file -->
+                    <td>
+                        <a href="./Product/Update/@product.Id" class="btn btn-warning">Update</a>
                     </td>
                 </tr>
             }
