@@ -96,29 +96,27 @@ namespace ContosoCrafts.WebSite.Services
         /// Save to the data store
         /// </summary>
         /// <param name="data"></param>
-        public ProductModel UpdateData(ProductModel data)
+        public bool UpdateData(ProductModel data)
         {
+            bool isValidUpdate = false;
+
             var products = GetAllData();
             var productData = products.FirstOrDefault(x => x.Id.Equals(data.Id));
             if (productData == null)
             {
-                return null;
+                isValidUpdate = false;
+                return isValidUpdate;
             }
 
-            // Update the data to the new passed in values
-            productData.Title = data.Title;
-            productData.Description = data.Description.Trim();
-            productData.Url = data.Url;
-            productData.Image = data.Image;
+            // Create a new product list without the changed object
+            var newProductList = products.Where(x => x.Id != data.Id);
+            newProductList = newProductList.Append(data);
 
-            productData.Quantity = data.Quantity;
-            productData.Price = data.Price;
+            // Store it back in Json File
+            SaveData(newProductList);
 
-            productData.CommentList = data.CommentList;
-
-            SaveData(products);
-
-            return productData;
+            isValidUpdate = true;
+            return isValidUpdate;
         }
 
         /// <summary>
@@ -181,6 +179,6 @@ namespace ContosoCrafts.WebSite.Services
 
             return data;
         }
-
     }
+
 }
