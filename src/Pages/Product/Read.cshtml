@@ -7,14 +7,34 @@
     ViewData["Title"] = "Read page";
 }
 
-<h1>Read</h1>
-
+<h1>
+<label class="text-label">Read</label>
+</h1>
 <div class="container">
-    <h5 class="title" id="productTitle">@Model.Product.Title</h5>
 
-    <img class="card-img" src='@Model.Product.Image' alt='Image for @Model.Product.Title'>
+    <img class="card-img1" src='@Model.Product.Image' alt='Image for @Model.Product.Title'>
+    <p></p>
+    <p></p>
 
-    <p class="card-text">@Model.Product.Description</p>
+    <div class="form-group">
+        <label class="text-label">Title</label>
+        <input asp-for="Product.Title" class="form-control" />
+    </div>
+
+    <div class="form-group">
+        <label class="text-label">Description</label>
+        <input asp-for="Product.Description" class="form-control" />
+    </div>
+
+    <div class="form-group">
+        <label class="text-label">Quantity</label>
+        <input asp-for="Product.Quantity" class="form-control" />
+    </div>
+
+    <div class="form-group">
+        <label class="text-label">Price</label>
+        <input asp-for="Product.Price" class="form-control" />
+    </div>
 
 </div>
 
@@ -24,7 +44,6 @@
     {
         <br />
         <br />
-
         <table class="table table-bordered table-striped">
             <thead>
                 <tr>
