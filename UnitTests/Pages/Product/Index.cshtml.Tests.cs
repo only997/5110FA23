@@ -44,7 +44,8 @@ namespace UnitTests.Pages.Product
             // Assert 
             // How many are there?
             Assert.AreEqual(true, pageModel.ModelState.IsValid);
-            //Assert.AreEqual(false, pageModel.Products.IsNullOrEmpty());
+            // Are there any in existence?
+            Assert.AreEqual(true, pageModel.Products.ToList().Any());
         }
         #endregion OnGet
     }
