@@ -80,9 +80,6 @@ for details on configuring this project to bundle and minify static web assets. 
     width: 50%;
 }
 
-.planet-card {
-    padding-bottom: 30px;
-}
 
 .card-columns .card:hover .card-img {
     opacity: 1;
