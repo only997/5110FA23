@@ -16,43 +16,43 @@
         @Html.HiddenFor(x => x.Product.Id)
 
         <div class="form-group">
-            <label asp-for="Product.Title" class="control-label"></label>
+            <label asp-for="Product.Title" class="text-label"></label>
             <input asp-for="Product.Title" class="form-control" />
             <span asp-validation-for="Product.Title" class="text-danger"></span>
         </div>
 
         <div class="form-group">
-            <label asp-for="Product.Description" class="control-label"></label>
+            <label asp-for="Product.Description" class="text-label"></label>
             <input asp-for="Product.Description" class="form-control" />
             <span asp-validation-for="Product.Description" class="text-danger"></span>
         </div>
 
         <div class="form-group">
-            <label asp-for="Product.Quantity" class="control-label"></label>
+            <label asp-for="Product.Quantity" class="text-label"></label>
             <input asp-for="Product.Quantity" class="form-control" />
             <span asp-validation-for="Product.Quantity" class="text-danger"></span>
         </div>
 
         <div class="form-group">
-            <label asp-for="Product.Price" class="control-label"></label>
+            <label asp-for="Product.Price" class="text-label"></label>
             <input asp-for="Product.Price" class="form-control" />
             <span asp-validation-for="Product.Price" class="text-danger"></span>
         </div>
 
         <div class="form-group">
-            <label asp-for="Product.Url" class="control-label"></label>
+            <label asp-for="Product.Url" class="text-label"></label>
             <input asp-for="Product.Url" class="form-control" />
             <span asp-validation-for="Product.Url" class="text-danger"></span>
         </div>
 
         <div class="form-group">
-            <label asp-for="Product.Image" class="control-label"></label>
+            <label asp-for="Product.Image" class="text-label"></label>
             <input asp-for="Product.Image" class="form-control" />
             <span asp-validation-for="Product.Image" class="text-danger"></span>
         </div>
 
         <div class="form-group">
-            <label asp-for="Product.ProductType" class="control-label"></label>
+            <label asp-for="Product.ProductType" class="text-label"></label>
             <select class="form-control"
                     asp-for="Product.ProductType"
                     asp-items="Html.GetEnumSelectList<ProductTypeEnum>()">
