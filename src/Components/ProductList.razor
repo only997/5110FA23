@@ -16,10 +16,12 @@
 
 <div class="container-fluid">
     @{
+
+
         var productList = ProductService.GetAllData();
 
         /*
-
+         * 
             Change the grouping sort order to be
             Order by ProductType
             Then order by ProductList Alphabetic within the Product data set
@@ -27,13 +29,14 @@
         */
 
         // Group by the Enum
-        foreach (ProductTypeEnum productType in Enum.GetValues(typeof(ProductTypeEnum)))
-        {
-            // Get only the products that are of this enum type
-            var productListGroup = productList.Where(m => m.ProductType == productType);
+        //foreach (ProductTypeEnum productType in Enum.GetValues(typeof(ProductTypeEnum)))
+        //{
+        // Get only the products that are of this enum type
+        //var productListGroup = productList.Where(m => m.ProductType == productType);
 
-            // Order the list alphabetical
-            productListGroup = productListGroup.OrderBy(m => m.Title);
+        // Order the list alphabetical
+        var productListGroup = productList; 
+        productListGroup = productListGroup.OrderBy(m => m.Title);
 
             // If filter is enabled, reduce the data set to the filter string
             if (FilterData)
@@ -45,8 +48,6 @@
             {
 
                 <hr />
-                <h2>@productType.DisplayName()</h2>
-
                 <div class="row">
                     <div class="card-columns">
                         @foreach (var product in productListGroup)
@@ -67,20 +68,27 @@
                                 </div>
                                 <div class="card-footer">
                                     <small class="text-muted">
-                                        <button @onclick="(e => SelectProduct(product.Id))" id="MoreInfoButton_@product.Id" data-toggle="modal" data-target="#productModal" class="btn btn-primary">More Info</button>
+                                        <button @onclick="(e => SelectProduct(product.Id))" id="moreInfo_@product.Id"
+                                            data-toggle="modal" data-target="#productModal" class="btn btn-yellow btn-warning">
+                                            More Info
+                                        </button>
                                     </small>
                                 </div>
                             </div>
                         }
                     </div>
                 </div>
-            }
+            // }
         }
     }
 </div>
 
-@if (selectedProduct != null)
+
+@if (selectedProduct == null)
 {
+    selectedProduct = ProductService.GetAllData().First();
+}
+
     <div class="modal fade" id="productModal" tabindex="-1" role="dialog" aria-labelledby="productTitle" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered" role="document">
             <div class="modal-content">
@@ -171,7 +179,7 @@
             </div>
         </div>
     </div>
-}
+
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
