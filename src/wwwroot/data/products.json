@@ -1,75 +1,5 @@
 [
   {
-    "Id": "mike-cloud",
-    "Maker": "@hasbro",
-    "img": "https://hackster.imgix.net/uploads/attachments/373209/200w_d_ZdG1pjGcUk.gif?auto=format%2Ccompress\u0026gifq=35\u0026w=900\u0026h=675\u0026fit=min\u0026fm=mp4",
-    "Url": "https://www.hackster.io/agent-hawking-1/the-quantified-cactus-an-easy-plant-soil-moisture-sensor-e65393",
-    "Title": "Cloud Costume",
-    "Description": "There\u0027s a front coming through! Cloud costume, complete with weather patterns.",
-    "Ratings": [
-      5,
-      5,
-      3,
-      2,
-      1,
-      5
-    ],
-    "ProductType": 0,
-    "Quantity": 5,
-    "Price": 5.15,
-    "CommentList": []
-  },
-  {
-    "Id": "mike-fun",
-    "Maker": "@hasbro",
-    "img": "https://hackster.imgix.net/uploads/attachments/1003083/blob_LY8GvwM0lO.blob?auto=compress%2Cformat\u0026w=900\u0026h=675\u0026fit=min",
-    "Url": "https://www.hackster.io/smythr/fun-halloween-costume-9579b1",
-    "Title": "Fun Halloween Costume",
-    "Description": "A delightful way to get into spooky season with a homemade costume to light up the night.",
-    "Ratings": null,
-    "ProductType": 0,
-    "Quantity": 15,
-    "Price": 10.33,
-    "CommentList": []
-  },
-  {
-    "Id": "mike-robo",
-    "Maker": "@hasbro",
-    "img": "https://hackster.imgix.net/uploads/attachments/366646/dsc08301_8ITPKzsC5M.jpg?auto=compress%2Cformat\u0026w=900\u0026h=675\u0026fit=min",
-    "Url": "https://www.hackster.io/estefanniegg/halloween-build-robosuit-c1a615",
-    "Title": "Halloween Build - Robosuit!",
-    "Description": "Great Old fashioned Robot from the 1950\u0027s\u0027",
-    "Ratings": null,
-    "ProductType": 0,
-    "Quantity": 1,
-    "Price": 32.99,
-    "CommentList": []
-  },
-  {
-    "Id": "mike-krueger",
-    "Maker": "@hasbro",
-    "img": "https://cdn.media.amplience.net/i/partycity/P890457?$large$\u0026fmt=auto\u0026qlt=default",
-    "Url": "https://www.partycity.com/adult-freddy-krueger-sweater-deluxe---a-nightmare-on-elm-street-890458.html?extcmp=pla%7CGoogle\u0026extcmp=pla%7cpmax\u0026gclid=CjwKCAjwyY6pBhA9EiwAMzmfwc8ANbY01IHjbjSlI7ccFE6dq598easUBLWOj7JAQ44pqFuOVOHt2hoCe0QQAvD_BwE\u0026gclsrc=aw.ds",
-    "Title": "Adult Freddy Krueger",
-    "Description": "Stay cozy as you terrorize the dreams of your victims in this deluxe Freddy Krueger sweater for adults! T",
-    "Ratings": [
-      5
-    ],
-    "ProductType": 0,
-    "Quantity": 13,
-    "Price": 21.55,
-    "CommentList": [
-      {
-        "Id": "dd2459e8-721b-4c05-bd79-543a0ba6abe2",
-        "Comment": "I like it"
-      },
-      {
-        "Id": "8d952e72-4861-42f8-bc0e-be8e54029708",
-        "Comment": "Its nice"
-      }
-    ]
-  },
-  {
     "Id": "mike-clown",
     "Maker": "Amazon",
     "img": "https://m.media-amazon.com/images/I/61E3AssjE7L._AC_UX466_.jpg",
@@ -171,6 +101,58 @@
     "ProductType": 0,
     "Quantity": 11,
     "Price": 11.11,
+    "CommentList": []
+  },
+  {
+    "Id": "mike-cloud",
+    "Maker": null,
+    "img": "https://hackster.imgix.net/uploads/attachments/373209/200w_d_ZdG1pjGcUk.gif?auto=format%2Ccompress\u0026gifq=35\u0026w=900\u0026h=675\u0026fit=min\u0026fm=mp4",
+    "Url": "https://www.hackster.io/agent-hawking-1/the-quantified-cactus-an-easy-plant-soil-moisture-sensor-e65393",
+    "Title": "Cloud Costume",
+    "Description": "There\u0027s a front coming through! Cloud costume, complete with weather patterns.",
+    "Ratings": null,
+    "ProductType": 0,
+    "Quantity": 8,
+    "Price": 5.15,
+    "CommentList": []
+  },
+  {
+    "Id": "mike-fun",
+    "Maker": null,
+    "img": "https://hackster.imgix.net/uploads/attachments/1003083/blob_LY8GvwM0lO.blob?auto=compress%2Cformat\u0026w=900\u0026h=675\u0026fit=min",
+    "Url": "https://www.hackster.io/smythr/fun-halloween-costume-9579b1",
+    "Title": "Fun Halloween Costume",
+    "Description": "A delightful way to get into spooky season with a homemade costume to light up the night.",
+    "Ratings": null,
+    "ProductType": 0,
+    "Quantity": 25,
+    "Price": 10.33,
+    "CommentList": []
+  },
+  {
+    "Id": "mike-robo",
+    "Maker": null,
+    "img": "https://hackster.imgix.net/uploads/attachments/366646/dsc08301_8ITPKzsC5M.jpg?auto=compress%2Cformat\u0026w=900\u0026h=675\u0026fit=min",
+    "Url": "https://www.hackster.io/estefanniegg/halloween-build-robosuit-c1a615",
+    "Title": "Halloween Build - Robosuit!",
+    "Description": "Great Old fashioned Robot from the 1950\u0027s\u0027",
+    "Ratings": null,
+    "ProductType": 0,
+    "Quantity": 5,
+    "Price": 32.99,
+    "CommentList": []
+  },
+  {
+    "Id": "mike-krueger",
+    "Maker": null,
+    "img": "https://cdn.media.amplience.net/i/partycity/P890457?$large$\u0026fmt=auto\u0026qlt=default",
+    "Url": "https://www.partycity.com/adult-freddy-krueger-sweater-deluxe---a-nightmare-on-elm-street-890458.html?extcmp=pla%7CGoogle\u0026extcmp=pla%7cpmax\u0026gclid=CjwKCAjwyY6pBhA9EiwAMzmfwc8ANbY01IHjbjSlI7ccFE6dq598easUBLWOj7JAQ44pqFuOVOHt2hoCe0QQAvD_BwE\u0026gclsrc=aw.ds",
+    "Title": "Adult Freddy Krueger",
+    "Description": "Stay cozy as you terrorize the dreams of your victims in this deluxe Freddy Krueger sweater for adults! T",
+    "Ratings": null,
+    "ProductType": 0,
+    "Quantity": 24,
+    "Price": 21.55,
     "CommentList": []
   }
 ]
