@@ -49,6 +49,7 @@ namespace UnitTests.Pages.Index
 
             // Assert
             Assert.AreEqual(true, pageModel.ModelState.IsValid);
+            // Are there any in existence?
             Assert.AreEqual(true, pageModel.Products.ToList().Any());
         }
         #endregion OnGet
