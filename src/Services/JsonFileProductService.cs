@@ -74,10 +74,13 @@ namespace ContosoCrafts.WebSite.Services
             }
 
             // Check to see if the rating exist, if there are none, then create the array
-            if (data.Ratings == null)
-            {
-                data.Ratings = new int[] { };
-            }
+ 
+            // TODO none of my data has no NULL Data in ratings, but want to fix this
+            // when I start to create Unit Tests that can do inserts
+            //if (data.Ratings == null)
+            //{
+            //    data.Ratings = new int[] { };
+            //}
 
             // Add the Rating to the Array
             var ratings = data.Ratings.ToList();
@@ -137,48 +140,5 @@ namespace ContosoCrafts.WebSite.Services
                 );
             }
         }
-
-        /// <summary>
-        /// Create a new product using default values
-        /// After create the user can update to set values
-        /// </summary>
-        /// <returns></returns>
-        public ProductModel CreateData()
-        {
-            var data = new ProductModel()
-            {
-                Id = System.Guid.NewGuid().ToString(),
-                Title = "Enter Title",
-                Description = "Enter Description",
-                Url = "Enter URL",
-                Image = "",
-            };
-
-            // Get the current set, and append the new record to it because IEnumerable does not have Add
-            var dataSet = GetAllData();
-            dataSet = dataSet.Append(data);
-
-            SaveData(dataSet);
-
-            return data;
-        }
-
-        /// <summary>
-        /// Remove the item from the system
-        /// </summary>
-        /// <returns></returns>
-        public ProductModel DeleteData(string id)
-        {
-            // Get the current set, and append the new record to it
-            var dataSet = GetAllData();
-            var data = dataSet.FirstOrDefault(m => m.Id.Equals(id));
-
-            var newDataSet = GetAllData().Where(m => m.Id.Equals(id) == false);
-
-            SaveData(newDataSet);
-
-            return data;
-        }
     }
-
 }
