@@ -35,7 +35,8 @@ namespace ContosoCrafts.WebSite.Pages.Product
             Product = ProductService.GetAllData().FirstOrDefault(m => m.Id.Equals(id));
             if (Product == null)
             {
-                return RedirectToPage("./Index");
+                this.ModelState.AddModelError("bogus", "bogus error");
+                return RedirectToPage("./Index"); // Probably should be an error message
             }
 
             return Page();
