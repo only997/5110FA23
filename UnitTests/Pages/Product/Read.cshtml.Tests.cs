@@ -84,6 +84,26 @@ namespace UnitTests.Pages.Product.Read
             Assert.AreEqual(true, pageModel.ModelState.IsValid);
             Assert.AreEqual("Cloud Costume", pageModel.Product.Title);
         }
+
+        [Test]
+        public void OnGet_InValid_Should_Return_InvalidState()
+        {
+            // Arrange
+
+            // Act
+            pageModel.OnGet("mike-cloud2"); // Does not exist
+
+            // Assert
+            // Store whether the ModelState is valid for later assert
+            var stateIsValid = pageModel.ModelState.IsValid;
+
+            // Assert
+            Assert.AreEqual(false, stateIsValid);
+
+            // Reset
+            // This should remove the error we added
+            pageModel.ModelState.Clear();
+        }
         #endregion OnGet
     }
 }
