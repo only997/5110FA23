@@ -7,13 +7,21 @@ using Microsoft.Extensions.Hosting;
 
 namespace ContosoCrafts.WebSite
 {
+    /// <summary>
+    /// Startup is for starting up the application
+    /// </summary>
     public class Startup
     {
+        /// <summary>
+        /// Constructer for Startup
+        /// </summary>
+        /// <param name="configuration"></param>
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
         }
 
+        // Getter for Configuration
         public IConfiguration Configuration { get; }
 
         // This method gets called by the runtime. Use this method to add services to the container.
