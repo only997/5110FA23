@@ -38,6 +38,10 @@ namespace ContosoCrafts.WebSite.Pages.Product
         public void OnGet(string id)
         {
             Product = ProductService.GetAllData().FirstOrDefault(m => m.Id.Equals(id));
+            if (Product == null)
+            {
+                this.ModelState.AddModelError("OnGet", "Update Onget Error");
+            }
         }
 
         /// <summary>
@@ -54,7 +58,12 @@ namespace ContosoCrafts.WebSite.Pages.Product
                 return Page();
             }
 
-            ProductService.UpdateData(Product);
+            bool isValidUpdate = ProductService.UpdateData(Product);
+            if (isValidUpdate == false)
+            {
+                this.ModelState.AddModelError("bogus", "bogus error");
+                return Page(); // Probably should be an Error Page
+            }
 
             return RedirectToPage("./Index");
         }
