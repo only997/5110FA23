@@ -4,7 +4,11 @@ using NUnit.Framework;
 
 namespace UnitTests
 {
+    /// <summary>
+    /// TextFixture is a necessary class for starting up unit tests
+    /// </summary>
     [SetUpFixture]
+    
     public class TestFixture
     {
         // Path to the Web Root
@@ -50,6 +54,9 @@ namespace UnitTests
             }
         }
 
+        /// <summary>
+        /// RunAfterAnyTests will contain activities you do after each test
+        /// </summary>
         [OneTimeTearDown]
         public void RunAfterAnyTests()
         {
