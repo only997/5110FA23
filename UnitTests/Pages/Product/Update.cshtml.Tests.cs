@@ -34,16 +34,39 @@ namespace UnitTests.Pages.Product
         /// <summary>
         /// Test that's loading the update page returns a non-empty list of products
         /// </summary>
-        public void OnGet_Valid_Should_Return_Products()
+        public void OnGet_Valid_Should_Return_Product()
         {
             // Arrange
 
             // Act
-            pageModel.OnGet("venus");
-
+            pageModel.OnGet("mike-clown");
             // Assert
             Assert.AreEqual(true, pageModel.ModelState.IsValid);
-            Assert.AreEqual("Venus", pageModel.Product.Title);
+            Assert.AreEqual("Amazon", pageModel.Product.Maker);
+
+            // Reset
+            // This should remove the error we added
+            pageModel.ModelState.Clear();
+
+        }
+
+
+        [Test]
+        /// <summary>
+        /// Test that's loading the update page returns an invalid state
+        /// </summary>
+        public void OnGet_Valid_Should_Return_InvalidState()
+        {
+            // Arrange
+
+            // Act
+            pageModel.OnGet("mike-clown1");  // Should not find
+            // Assert
+            Assert.AreEqual(false, pageModel.ModelState.IsValid);
+
+            // Reset
+            pageModel.ModelState.Clear();
+
         }
         #endregion OnGet
 
@@ -55,26 +78,34 @@ namespace UnitTests.Pages.Product
         public void OnPost_Valid_Should_Return_Products()
         {
             // Arrange
-            pageModel.Product = new ProductModel
-            {
-                Id = "venus_planet",
-                Title = "Planet Venus",
-                Description = "2nd planet",
-                Url = "https://solarsystem.nasa.gov/planets/venus/overview/",
-                Image = "https://solarsystem.nasa.gov/system/news_items/list_view_images/1519_688_Venus_list.jpg"
-            };
 
             // Act
+            pageModel.OnGet("mike-clown");
+            Assert.AreEqual(true, pageModel.ModelState.IsValid);
+            var originalMaker = pageModel.Product.Maker;
+
+            // change Value to Microsoft  and update
+            pageModel.Product.Maker = "Microsoft";
             var result = pageModel.OnPost() as RedirectToPageResult;
 
-            // Assert - the Updated record should be re-retrieved and found
-            pageModel.OnGet("venus");
+            // Assert to see that post succeeeded
             Assert.AreEqual(true, pageModel.ModelState.IsValid);
-            Assert.AreEqual("Venus", pageModel.Product.Title);
-            // Assert - It should return an index page
+
+            // Read it to see if it changed
+            pageModel.OnGet("mike-clown");
+
+            // Assertions to verify
             Assert.AreEqual(true, pageModel.ModelState.IsValid);
-            Assert.AreEqual(true, result.PageName.Contains("Index"));
-            // Rest it back, means reversing the Update
+            Assert.AreEqual("Microsoft", pageModel.Product.Maker);
+
+            // Reset it back
+            pageModel.Product.Maker = originalMaker;
+            result = pageModel.OnPost() as RedirectToPageResult;
+            // Assert to see that post succeeeded
+            Assert.AreEqual(true, pageModel.ModelState.IsValid);
+
+            // Reset 
+            pageModel.ModelState.Clear();
 
         }
 
@@ -95,12 +126,40 @@ namespace UnitTests.Pages.Product
             // Store whether the ModelState is valid for later assert
             var stateIsValid = pageModel.ModelState.IsValid;
 
+            // Assert
+            Assert.AreEqual(false, stateIsValid);
+
             // Reset
             // This should remove the error we added
-            pageModel.ModelState["bogus"].Errors.Clear();
+            pageModel.ModelState.Clear();
+        }
+
+
+        [Test]
+        /// <summary>
+        /// Test that's loading the update page returns a non-empty list of products
+        /// </summary>
+        public void OnPost_InValidID_Should_Return_Null()
+        {
+            // Arrange
+
+            // Act
+            pageModel.OnGet("mike-clown");
+            Assert.AreEqual(true, pageModel.ModelState.IsValid);
+
+            pageModel.Product.Id = "mike-clown2"; // post with an invalid id
+            var result = pageModel.OnPost() as ActionResult;
+
+            // Store whether the ModelState is valid for later assert
+            var stateIsValid = pageModel.ModelState.IsValid;
 
             // Assert
             Assert.AreEqual(false, stateIsValid);
+
+            // Reset
+            // This should remove the error we added
+            pageModel.ModelState.Clear();
+
         }
         #endregion OnPost
     }
