@@ -160,6 +160,7 @@ namespace UnitTests.Pages.Product.AddRating
             // Arrange
             // Get the First data item
             var data = TestHelper.ProductService.GetAllData().First();
+
             // Store the original Rating list length for comparison later
             var countOriginal = data.Ratings.Length;
 
@@ -176,6 +177,6 @@ namespace UnitTests.Pages.Product.AddRating
         }
         #endregion AddRating
 
-
+ 
     }
 }
