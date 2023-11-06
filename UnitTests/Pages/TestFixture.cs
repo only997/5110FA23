@@ -17,20 +17,28 @@ namespace UnitTests
         // Path to the data folder for the content
         public static string DataContentRootPath = "./data/";
 
+        // Test Database
+        public static string DataTestFile = "products_test.json";
+
+        // Production Database
+        public static string DataProductionFile = "products.json";
+
+        // Net version (change when .net has different version
+        public static string NetVersion = "net7.0";
+
         [OneTimeSetUp]
         public void RunBeforeAnyTests()
         {
             // Run this code once when the test harness starts up.
 
-            // This will copy over the latest version of the database files
+            // This will copy the test database to the new location for the production
+            // database. The reason is because when the code starts it reacts to the 
+            // production database (products.json). If we copy the test database so
+            // it uses the production database name, then the unit tests will work on 
+            // a static representation, so that it should pass. The production database
+            // might be dynamic for instance.
 
-            // C:\repos\5110\ClassBaseline\UnitTests\bin\Debug\net5.0\wwwroot\data
-            // C:\repos\5110\ClassBaseline\src\wwwroot\data
-            // C:\repos\5110\ClassBaseline\src\bin\Debug\net5.0\wwwroot\data
-
-
-
-            var DataWebPath = "../../../../src/bin/Debug/net7.0/wwwroot/data";
+            var DataWebPath = "../../../../src/bin/Debug/" + NetVersion + "/wwwroot/data";
             var DataUTDirectory = "wwwroot";
             var DataUTPath = DataUTDirectory + "/data";
 
@@ -43,7 +51,8 @@ namespace UnitTests
             // Make the directory
             Directory.CreateDirectory(DataUTPath);
 
-            // Copy over all data files
+            
+            // Copy over all data files from old path to new path
             var filePaths = Directory.GetFiles(DataWebPath);
             foreach (var filename in filePaths)
             {
@@ -52,6 +61,7 @@ namespace UnitTests
 
                 File.Copy(OriginalFilePathName, newFilePathName);
             }
+
         }
 
         /// <summary>
