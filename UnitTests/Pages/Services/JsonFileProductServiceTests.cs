@@ -1,10 +1,5 @@
 using System.Linq;
-
-using Microsoft.AspNetCore.Mvc;
-
 using NUnit.Framework;
-
-using ContosoCrafts.WebSite.Models;
 
 namespace UnitTests.Pages.Product.AddRating
 {
@@ -26,18 +21,23 @@ namespace UnitTests.Pages.Product.AddRating
         /// Test that the last data that was added was added correctly
         /// </summary>
         [Test]
-        public void AddRating_Valid_Product_Id_Rating_null_Should_Return_new_Array()
+        public void AddRating_Valid_ProductId_Return_true()
         {
             // Arrange
+
+            // Create Dummy Record with no prior Ratings
             // Get the Last data item
             var data = TestHelper.ProductService.GetAllData().Last();
 
             // Act
             // Store the result of the AddRating method (which is being tested)
-            var result = TestHelper.ProductService.AddRating(data.Id, 0);
+            bool validAdd = TestHelper.ProductService.AddRating(data.Id, 0);
 
             // Assert
-            Assert.AreEqual(true, result);
+            Assert.AreEqual(true, validAdd);
+
+            // Reset
+            // Delete Dummy Record
         }
 
         /// <summary>
