@@ -59,9 +59,10 @@ namespace UnitTests.Pages.Product.Create
             // Create a dummy variable to insert. We will only put 3 fields (Good Enough)
             var dummyData = new ProductModel
             {
-                Id = "",
-                Title = "Planet Venus",
-                Description = "2nd planet",
+
+                Id = "mike-test",
+                Title = "Scarecrow-costume",
+                Description = "From Wizard of OZ",
                 Url = "https://solarsystem.nasa.gov/planets/venus/overview/",
                 Image = "https://solarsystem.nasa.gov/system/news_items/list_view_images/1519_688_Venus_list.jpg"
             };
