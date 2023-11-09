@@ -329,3 +329,5 @@ ASALocalRun/
 
 # MFractors (Xamarin productivity tool) working folder 
 .mfractor/
+/src/Properties/ServiceDependencies/MikeandMikeHalloweenCostume - Web Deploy/profile.arm.json
+/.gitignore

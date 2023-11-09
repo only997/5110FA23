@@ -14,13 +14,19 @@ namespace ContosoCrafts.WebSite.Services
         public JsonFileProductService(IWebHostEnvironment webHostEnvironment)
         {
             WebHostEnvironment = webHostEnvironment;
-        }
+            // Set the JSON FileName
+            JsonFileName = Path.Combine(WebHostEnvironment.WebRootPath, "data", "products.json"); ;
+         }
+
 
         public IWebHostEnvironment WebHostEnvironment { get; }
 
-        private string JsonFileName
+        public string JsonFileName { get; set; }
+
+        public void SwitchJsonFileName()
         {
-            get { return Path.Combine(WebHostEnvironment.WebRootPath, "data", "products.json"); }
+            // switch products.json with products_test.json
+            JsonFileName = JsonFileName.Replace("products", "products_test");
         }
 
         public IEnumerable<ProductModel> GetAllData()
@@ -139,6 +145,42 @@ namespace ContosoCrafts.WebSite.Services
                     products
                 );
             }
+        }
+
+        /// <summary>
+        /// Create a new product using default values
+        /// After create the user can update to set values
+        /// </summary>
+        /// <returns></returns>
+        public void CreateData(ProductModel data)
+        {
+
+            // Get the current set, and append the new record to it
+            var dataSet = GetAllData();
+            dataSet = dataSet.Append(data);
+
+            SaveData(dataSet);
+
+        }
+
+        /// <summary>
+        /// Remove the item from the system
+        /// </summary>
+        /// <returns></returns>
+        public ProductModel DeleteData(string id)
+        {
+            // Get the current set, and append the new record to it
+            var dataSet = GetAllData();
+            var data = dataSet.FirstOrDefault(m => m.Id.Equals(id));
+
+            //retrieve data where ID value doesn't match the deleted ID value
+            var newDataSet = GetAllData().Where(m => m.Id.Equals(id) == false);
+
+            //save the new dataset
+            SaveData(newDataSet);
+
+            //return new dataset without deleted ID
+            return data;
         }
     }
 }

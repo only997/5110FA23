@@ -40,6 +40,8 @@ namespace UnitTests
         /// <summary>
         /// Default Constructor
         /// </summary>
+
+
         static TestHelper()
         {
             MockWebHostEnvironment = new Mock<IWebHostEnvironment>();
@@ -69,9 +71,15 @@ namespace UnitTests
 
             ProductService = new JsonFileProductService(MockWebHostEnvironment.Object);
 
-            JsonFileProductService productService;
+            // set the JSON File directly here. 
+            ProductService.SwitchJsonFileName();
 
-            productService = new JsonFileProductService(TestHelper.MockWebHostEnvironment.Object);
         }
+
+
+        
+
+
+
     }
 }

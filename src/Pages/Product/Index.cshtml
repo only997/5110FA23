@@ -5,6 +5,9 @@
     ViewData["Title"] = "Index page";
 }
 
+<div>
+    <a class="nav-link text-dark" asp-area="Pages" asp-page="/Product/Read">Products</a>
+</div>
 
 @(await Html.RenderComponentAsync<ProductIndex>(RenderMode.ServerPrerendered))
 

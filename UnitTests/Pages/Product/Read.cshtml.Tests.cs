@@ -72,10 +72,23 @@ namespace UnitTests.Pages.Product.Read
         #endregion TestSetup
 
         #region OnGet
+
+        // OnGet on Read should test functionality of a Read of a specific product
+        // Tests should include making sure that Read returns the Product in its payload with a valid ID
+        // Tests should include InvalidID's
+
+        // OnPost is not handled.
+
+        /// <summary>
+        /// Return a Product with a given Id.
+        /// We will create a Record, and then search for it
+        /// 
+        /// </summary>
         [Test]
+
         public void OnGet_Valid_Should_Return_Products()
         {
-            // Arrange
+            // Arrange 
 
             // Act
             pageModel.OnGet("mike-cloud");
@@ -83,6 +96,10 @@ namespace UnitTests.Pages.Product.Read
             // Assert
             Assert.AreEqual(true, pageModel.ModelState.IsValid);
             Assert.AreEqual("Cloud Costume", pageModel.Product.Title);
+
+            // Reset
+
+            return;
         }
 
         [Test]
@@ -96,13 +113,13 @@ namespace UnitTests.Pages.Product.Read
             // Assert
             // Store whether the ModelState is valid for later assert
             var stateIsValid = pageModel.ModelState.IsValid;
-
-            // Assert
             Assert.AreEqual(false, stateIsValid);
 
             // Reset
             // This should remove the error we added
             pageModel.ModelState.Clear();
+
+            return;
         }
         #endregion OnGet
     }
