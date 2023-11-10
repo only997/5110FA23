@@ -103,7 +103,7 @@ namespace UnitTests.Pages.Product.Create
             pageModel.ModelState.AddModelError("bogus", "bogus error");
 
             // Act
-            // Store the ActionResult of the post? TODO: better understand this line of code or ask professor
+            // Store the ActionResult of the post
             var result = pageModel.OnPost() as ActionResult;
             // Store whether the ModelState is valid for later assert
             var stateIsValid = pageModel.ModelState.IsValid;
