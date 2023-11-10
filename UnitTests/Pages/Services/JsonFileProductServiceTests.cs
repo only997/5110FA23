@@ -1,7 +1,10 @@
+
 using System.Linq;
+using ContosoCrafts.WebSite.Models;
 using NUnit.Framework;
 
-namespace UnitTests.Pages.Product.AddRating
+
+namespace UnitTests.Services.TestJsonFileProductService
 {
     public class JsonFileProductServiceTests
     {
@@ -177,6 +180,75 @@ namespace UnitTests.Pages.Product.AddRating
         }
         #endregion AddRating
 
- 
+        #region CreateDummyProduct
+        /// <summary>
+        /// This will test our Service "JsonFileProductService" routines
+        /// Will create a dummy product, and also test for delete when we set it
+        /// back
+        /// </summary>
+        [Test]
+        public void Create_Valid_ProductId_Return_true()
+        {
+            // Arrange
+
+            // Create a dummy variable to insert. We will only put 3 fields (Good Enough)
+            var dummyData = new ProductModel
+            {
+
+                Id = "mike-test",
+                Title = "Scarecrow-costume",
+                Description = "From Wizard of OZ",
+                Url = "https://solarsystem.nasa.gov/planets/venus/overview/",
+                Image = "https://solarsystem.nasa.gov/system/news_items/list_view_images/1519_688_Venus_list.jpg"
+            };
+
+            // Act
+            var data = TestHelper.ProductService.CreateData(dummyData);
+
+            // Assert
+            Assert.IsNotNull(data);
+            Assert.AreEqual(true, TestHelper.ProductService.GetAllData().Any(x => x.Id == dummyData.Id));
+
+            // Reset
+            TestHelper.ProductService.DeleteData(dummyData.Id);
+
+        }
+
+        #endregion CreateDummyRecord
+
+        #region DeleteDummyProduct
+        /// <summary>
+        /// This will test our Service "JsonFileProductService" routines
+        /// Will create a dummy product, and also test for delete when we set it
+        /// back
+        /// </summary>
+        [Test]
+        public void Delete_Valid_ProductId_Return_true()
+        {
+            // Arrange
+
+            // Create a dummy variable to insert. We will only put 3 fields (Good Enough)
+            var dummyData = new ProductModel
+            {
+
+                Id = "mike-test",
+                Title = "Scarecrow-costume",
+                Description = "From Wizard of OZ",
+                Url = "https://solarsystem.nasa.gov/planets/venus/overview/",
+                Image = "https://solarsystem.nasa.gov/system/news_items/list_view_images/1519_688_Venus_list.jpg"
+            };
+
+            // Act
+            TestHelper.ProductService.CreateData(dummyData);
+
+            // Assert (Create, Delete, Do not find record)
+            Assert.AreEqual(true, TestHelper.ProductService.GetAllData().Any(x => x.Id == dummyData.Id));
+            TestHelper.ProductService.DeleteData(dummyData.Id);
+            Assert.AreEqual(false, TestHelper.ProductService.GetAllData().Any(x => x.Id == dummyData.Id));
+        }
+
+        #endregion DeleteDummyRecord
+
+
     }
 }
