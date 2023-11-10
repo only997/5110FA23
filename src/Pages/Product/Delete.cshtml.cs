@@ -49,12 +49,8 @@ namespace ContosoCrafts.WebSite.Pages.Product
         /// <returns></returns>
         public IActionResult OnPost()
         {
-            if (!ModelState.IsValid)
-            {
-                return Page();
-            }
 
-            ProductService.DeleteData(Product.Id);
+            var data = ProductService.DeleteData(Product.Id);
 
             return RedirectToPage("./Index");
         }
