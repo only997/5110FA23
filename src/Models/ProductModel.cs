@@ -1,5 +1,4 @@
 using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
 using System.Text.Json;
 using System.Text.Json.Serialization;
 
@@ -46,6 +45,31 @@ namespace ContosoCrafts.WebSite.Models
 
         //Serializes it to a String
         public override string ToString() => JsonSerializer.Serialize<ProductModel>(this);
+
+        public ProductModel DeepCopy()
+        {
+            // New ProductModel to copy everything to
+            ProductModel deepCopyModel = new ProductModel();
+            deepCopyModel.Id = this.Id;
+            deepCopyModel.Maker = this.Maker;
+            deepCopyModel.Image = this.Image;
+            deepCopyModel.Url = this.Url;
+            deepCopyModel.Title = this.Title;
+            deepCopyModel.Description = this.Description;
+            deepCopyModel.ProductType = this.ProductType;
+            deepCopyModel.Quantity = this.Quantity;
+            deepCopyModel.Price = this.Price;
+            deepCopyModel.CommentList = this.CommentList;
+
+            if (this.Ratings == null)
+            {
+                return deepCopyModel;
+            }
+
+            deepCopyModel.Ratings = new int[this.Ratings.Length];
+            this.Ratings.CopyTo(deepCopyModel.Ratings, 0);
+            return deepCopyModel;
+        }
 
     }
 }
