@@ -152,7 +152,7 @@ namespace ContosoCrafts.WebSite.Services
         /// After create the user can update to set values
         /// </summary>
         /// <returns></returns>
-        public void CreateData(ProductModel data)
+        public ProductModel CreateData(ProductModel data)
         {
 
             // Get the current set, and append the new record to it
@@ -160,6 +160,9 @@ namespace ContosoCrafts.WebSite.Services
             dataSet = dataSet.Append(data);
 
             SaveData(dataSet);
+
+            // return the data
+            return data;
 
         }
 
