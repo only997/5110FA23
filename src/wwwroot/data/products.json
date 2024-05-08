@@ -72,11 +72,11 @@
   },
 
    { 
-    "Id": "01TheMartian", 
-    "Maker": "@cyrusliu", 
+    "Id": "08TheMartian", 
+    "Maker": "@AndyWeir", 
     "img": "The Martian_Andy Weir.jpeg", 
-    "Url": "https://", 
-    "Title": "The Martian", 
+    "img": "https://m.media-amazon.com/images/I/51QimqeXMXL._SL1200_.jpg", 
+    "Url": "https://www.amazon.com/Martian-Novel-Andy-Weir/dp/0804139024", 
     "Author": "Andy Weir", 
     "Genre": "Science Fiction", 
     "Description": "Astronaut stranded in Mars", 
@@ -84,10 +84,10 @@
   }, 
  
   { 
-    "Id": "02Pride", 
-    "Maker": "@cyrusliu", 
-    "img": "Pride and Prejudice_Jane Austen.jpeg", 
-    "Url": "https://", 
+    "Id": "09Pride", 
+    "Maker": "@JaneAusten", 
+    "img": "https://s3.amazonaws.com/adg-bucket/pride-and-pejudice-jane-austen/3425-medium.jpg", 
+    "Url": "https://www.andersondesigngroupstore.com/a/collections/literary-classics/pride-and-pejudice-jane-austen", 
     "Title": "Pride and Prejudice", 
     "Author": "Jane Austen", 
     "Genre": "Fiction", 
@@ -96,10 +96,10 @@
   },
 
   { 
-    "Id": "03MobyDick", 
-    "Maker": "@cyrusliu", 
-    "img": "Moby-Dick_Herman Melville.jpeg", 
-    "Url": "", 
+    "Id": "10MobyDick", 
+    "Maker": "@HermanMelville", 
+    "img": "https://m.media-amazon.com/images/I/616R20nvohL._AC_UF1000,1000_QL80_.jpg", 
+    "Url": "https://www.amazon.com/Moby-Dick-Melville-Classic-Illustrations/dp/B09PNLSK9G", 
     "Title": "Moby-Dick", 
     "Author": "Herman Melville", 
     "Genre": "Epic", 
@@ -108,10 +108,10 @@
   },
 
   { 
-    "Id": "04Frankenstein", 
-    "Maker": "@cyrusliu", 
-    "img": "Frankenstein_Mary Shelley.jpeg", 
-    "Url": "", 
+    "Id": "11Frankenstein", 
+    "Maker": "@MaryShelley", 
+    "img": "https://wordsworth-editions.com/wp-content/uploads/2022/07/9781840228342.jpg", 
+    "Url": "https://wordsworth-editions.com/book/frankenstein-collectors-edition/", 
     "Title": "Frankenstein", 
     "Author": "Mary Shelley", 
     "Genre": "Horror", 
