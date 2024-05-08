@@ -1,36 +1,44 @@
 [
   {
     "Id": "story-of-your-life",
+    "Maker":@Ted Chiang
     "Title": "Story of Your Life",
     "Author": "Ted Chiang",
     "img": "https://m.media-amazon.com/images/I/51jAxe6vEnL._SY445_SX342_.jpg",
+    "Url":
     "Description": "A science fiction short story collection by Ted Chiang, including the famous 'Story of Your Life,' which was the basis for the movie Arrival.",
     "Genre": "Science Fiction",
     "Ratings": [ 5, 4, 5 ]
   },
   {
     "Id": "1984",
+    "Maker":@George Orwell
     "Title": "1984",
     "Author": "George Orwell",
     "img": "https://m.media-amazon.com/images/I/41sjzA8EGhL._SY445_SX342_.jpg",
+    "Url": ""
     "Description": "A dystopian social science fiction novel by George Orwell, depicting a totalitarian society under constant surveillance.",
     "Genre": "Dystopian Fiction",
     "Ratings": [ 5, 4, 5 ]
   },
   {
     "Id": "the-moon-and-sixpence",
+    "Maker":@W. Somerset Maugham
     "Title": "The Moon and Sixpence",
     "Author": "W. Somerset Maugham",
     "img": "https://m.media-amazon.com/images/I/71YwYFObhCL._SY522_.jpg",
+    "Url":
     "Description": "A novel by W. Somerset Maugham inspired by the life of the painter Paul Gauguin, following a protagonist who leaves his comfortable life to pursue his passion for painting.",
     "Genre": "Fiction",
     "Ratings": [ 5, 4, 5 ]
   },
   {
     "Id": "stray-birds",
+    "Maker":@Rabindranath Tagore
     "Title": "Stray Birds",
     "Author": "Rabindranath Tagore",
     "img": "https://m.media-amazon.com/images/I/41vlWmdup5L._SY445_SX342_.jpg",
+    "Url":
     "Description": "A collection of poems by Rabindranath Tagore that explores the beauty of nature, love, and the human spirit.",
     "Genre": "Poetry",
     "Ratings": [ 5, 4, 5 ]
