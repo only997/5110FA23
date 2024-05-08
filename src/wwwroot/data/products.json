@@ -34,5 +34,40 @@
     "Description": "A collection of poems by Rabindranath Tagore that explores the beauty of nature, love, and the human spirit.",
     "Genre": "Poetry",
     "Ratings": [ 5, 4, 5 ]
+  },
+  {
+    "Id": "Dunes",
+    "Maker": "@Frank-Herbert",
+    "img": "https://images.thenile.io/r1000/9780593099322.jpg",
+    "Url": "https://bookanalysis.com/frank-herbert/dune/review/",
+    "Title": "Dunes",
+    "Author": "Frank Herbert",
+    "Genre": "Fiction",
+    "Description": "a story with refined literature, excellent characters, and a detailed description of events that makes it incredibly realistic",
+    "Ratings": []
+  },
+
+  {
+    "Id": "Killers of the Flower Moon",
+    "Maker": "@David Grann",
+    "img": "https://th.bing.com/th/id/R.c7865c6cdc9e1065f417755bd04e313e?rik=SpJJc0EAYi%2B4FA&pid=ImgRaw&r=0",
+    "Url": "https://www.amazon.com/Killers-Flower-Moon-Osage-Murders/dp/0385534248/ref=asc_df_0385534248?tag=bingshoppinga-20&linkCode=df0&hvadid=80745437135190&hvnetw=o&hvqmt=e&hvbmt=be&hvdev=c&hvlocint=&hvlocphy=&hvtargid=pla-4584345029251773&psc=1",
+    "Title": "Killers of the Flower Moon",
+    "Author": "David Grann",
+    "Genre": "Crime",
+    "Description": "In the 1920s, the Osage found themselves in a unique position among Native Americans tribes",
+    "Ratings": []
+  },
+
+  {
+    "Id": "Nineteen Eighty-Four",
+    "Maker": "@George Orwell",
+    "img": "https://www.penguinreaders.co.uk/wp-content/uploads/2020/04/9780241430972-1333x2048.jpg",
+    "Url": "https://www.penguinreaders.co.uk/ladybird-books/nineteen-eighty-four/",
+    "Title": "Nineteen Eighty-Four",
+    "Author": "George Orwell",
+    "Genre": "Fiction",
+    "Description": "Winston Smith re-writes history for the Ministry of Truth in Oceania",
+    "Ratings": []
   }
 ]
