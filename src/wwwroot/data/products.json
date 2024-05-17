@@ -5,10 +5,16 @@
     "img": "https://m.media-amazon.com/images/I/51jAxe6vEnL._SY445_SX342_.jpg",
     "Url": "https://www.amazon.com/Stories-Your-Life-Others-Chiang/dp/1101972122",
     "Title": "Story of Your Life",
-    "Author": "Ted Chiang",
-    "Genre": "Science Fiction",
-    "Description": "A science fiction short story collection by Ted Chiang, including the famous 'Story of Your Life,' which was the basis for the movie Arrival.",
-    "Ratings": [ 5, 4, 5 ]
+    "Description": "A science fiction short story collection by Ted Chiang, including the famous \u0027Story of Your Life,\u0027 which was the basis for the movie Arrival.",
+    "Ratings": [
+      5,
+      4,
+      5
+    ],
+    "ProductType": 0,
+    "Quantity": 0,
+    "Price": 0,
+    "CommentList": []
   },
   {
     "Id": "1984",
@@ -16,10 +22,16 @@
     "img": "https://m.media-amazon.com/images/I/41sjzA8EGhL._SY445_SX342_.jpg",
     "Url": "https://bookanalysis.com/george-orwell/1984/summary/#cls-video-container-QTEQi0L2",
     "Title": "1984",
-    "Author": "George Orwell",
-    "Genre": "Dystopian Fiction",
     "Description": "A dystopian social science fiction novel by George Orwell, depicting a totalitarian society under constant surveillance.",
-    "Ratings": [ 5, 4, 5 ]
+    "Ratings": [
+      5,
+      4,
+      5
+    ],
+    "ProductType": 0,
+    "Quantity": 0,
+    "Price": 0,
+    "CommentList": []
   },
   {
     "Id": "the-moon-and-sixpence",
@@ -27,21 +39,33 @@
     "img": "https://m.media-amazon.com/images/I/71YwYFObhCL._SY522_.jpg",
     "Url": "https://www.goodreads.com/book/show/44796.The_Moon_and_Sixpence",
     "Title": "The Moon and Sixpence",
-    "Author": "W. Somerset Maugham",
-    "Genre": "Fiction",
     "Description": "A novel by W. Somerset Maugham inspired by the life of the painter Paul Gauguin, following a protagonist who leaves his comfortable life to pursue his passion for painting.",
-    "Ratings": [ 5, 4, 5 ]
+    "Ratings": [
+      5,
+      4,
+      5
+    ],
+    "ProductType": 0,
+    "Quantity": 0,
+    "Price": 0,
+    "CommentList": []
   },
   {
     "Id": "stray-birds",
     "Maker": "@Rabindranath-Tagore",
     "img": "https://m.media-amazon.com/images/I/41vlWmdup5L._SY445_SX342_.jpg",
-    "Url": "https://www.goodreads.com/book/show/166350.Stray_Birds?from_search=true&from_srp=true&qid=Dj35qstcAj&rank=1",
+    "Url": "https://www.goodreads.com/book/show/166350.Stray_Birds?from_search=true\u0026from_srp=true\u0026qid=Dj35qstcAj\u0026rank=1",
     "Title": "Stray Birds",
-    "Author": "Rabindranath Tagore",
-    "Genre": "Poetry",
     "Description": "A collection of poems by Rabindranath Tagore that explores the beauty of nature, love, and the human spirit.",
-    "Ratings": [ 5, 4, 5 ]
+    "Ratings": [
+      5,
+      4,
+      5
+    ],
+    "ProductType": 0,
+    "Quantity": 0,
+    "Price": 0,
+    "CommentList": []
   },
   {
     "Id": "Dunes",
@@ -49,83 +73,101 @@
     "img": "https://images.thenile.io/r1000/9780593099322.jpg",
     "Url": "https://bookanalysis.com/frank-herbert/dune/review/",
     "Title": "Dunes",
-    "Author": "Frank Herbert",
-    "Genre": "Fiction",
     "Description": "a story with refined literature, excellent characters, and a detailed description of events that makes it incredibly realistic",
-    "Ratings": []
+    "Ratings": [],
+    "ProductType": 0,
+    "Quantity": 0,
+    "Price": 0,
+    "CommentList": []
   },
-
   {
     "Id": "Killers of the Flower Moon",
     "Maker": "@David Grann",
-    "img": "https://th.bing.com/th/id/R.c7865c6cdc9e1065f417755bd04e313e?rik=SpJJc0EAYi%2B4FA&pid=ImgRaw&r=0",
-    "Url": "https://www.amazon.com/Killers-Flower-Moon-Osage-Murders/dp/0385534248/ref=asc_df_0385534248?tag=bingshoppinga-20&linkCode=df0&hvadid=80745437135190&hvnetw=o&hvqmt=e&hvbmt=be&hvdev=c&hvlocint=&hvlocphy=&hvtargid=pla-4584345029251773&psc=1",
+    "img": "https://th.bing.com/th/id/R.c7865c6cdc9e1065f417755bd04e313e?rik=SpJJc0EAYi%2B4FA\u0026pid=ImgRaw\u0026r=0",
+    "Url": "https://www.amazon.com/Killers-Flower-Moon-Osage-Murders/dp/0385534248/ref=asc_df_0385534248?tag=bingshoppinga-20\u0026linkCode=df0\u0026hvadid=80745437135190\u0026hvnetw=o\u0026hvqmt=e\u0026hvbmt=be\u0026hvdev=c\u0026hvlocint=\u0026hvlocphy=\u0026hvtargid=pla-4584345029251773\u0026psc=1",
     "Title": "Killers of the Flower Moon",
-    "Author": "David Grann",
-    "Genre": "Crime",
     "Description": "In the 1920s, the Osage found themselves in a unique position among Native Americans tribes",
-    "Ratings": []
+    "Ratings": [],
+    "ProductType": 0,
+    "Quantity": 0,
+    "Price": 0,
+    "CommentList": []
   },
-
   {
     "Id": "Nineteen Eighty-Four",
     "Maker": "@George Orwell",
     "img": "https://www.penguinreaders.co.uk/wp-content/uploads/2020/04/9780241430972-1333x2048.jpg",
     "Url": "https://www.penguinreaders.co.uk/ladybird-books/nineteen-eighty-four/",
     "Title": "Nineteen Eighty-Four",
-    "Author": "George Orwell",
-    "Genre": "Fiction",
     "Description": "Winston Smith re-writes history for the Ministry of Truth in Oceania",
-    "Ratings": [2, 3]
+    "Ratings": [
+      2,
+      3
+    ],
+    "ProductType": 0,
+    "Quantity": 0,
+    "Price": 0,
+    "CommentList": []
   },
-
-   { 
-    "Id": "08TheMartian", 
-    "Maker": "@AndyWeir", 
-    "img": "The Martian_Andy Weir.jpeg", 
-    "img": "https://m.media-amazon.com/images/I/51QimqeXMXL._SL1200_.jpg", 
-    "Url": "https://www.amazon.com/Martian-Novel-Andy-Weir/dp/0804139024", 
-    "Author": "Andy Weir", 
-    "Genre": "Science Fiction", 
-    "Description": "Astronaut stranded in Mars", 
-    "Ratings": [ 5, 5 ] 
-  }, 
- 
-  { 
-    "Id": "09Pride", 
-    "Maker": "@JaneAusten", 
-    "img": "https://s3.amazonaws.com/adg-bucket/pride-and-pejudice-jane-austen/3425-medium.jpg", 
-    "Url": "https://www.andersondesigngroupstore.com/a/collections/literary-classics/pride-and-pejudice-jane-austen", 
-    "Title": "Pride and Prejudice", 
-    "Author": "Jane Austen", 
-    "Genre": "Fiction", 
-    "Description": "Four sisters looking for marriage during Regency Era", 
-    "Ratings": [ 5, 5 ] 
+  {
+    "Id": "09Pride",
+    "Maker": "@JaneAusten",
+    "img": "https://s3.amazonaws.com/adg-bucket/pride-and-pejudice-jane-austen/3425-medium.jpg",
+    "Url": "https://www.andersondesigngroupstore.com/a/collections/literary-classics/pride-and-pejudice-jane-austen",
+    "Title": "Pride and Prejudice",
+    "Description": "Four sisters looking for marriage during Regency Era",
+    "Ratings": [
+      5,
+      5
+    ],
+    "ProductType": 0,
+    "Quantity": 0,
+    "Price": 0,
+    "CommentList": []
   },
-
-  { 
-    "Id": "10MobyDick", 
-    "Maker": "@HermanMelville", 
-    "img": "https://m.media-amazon.com/images/I/616R20nvohL._AC_UF1000,1000_QL80_.jpg", 
-    "Url": "https://www.amazon.com/Moby-Dick-Melville-Classic-Illustrations/dp/B09PNLSK9G", 
-    "Title": "Moby-Dick", 
-    "Author": "Herman Melville", 
-    "Genre": "Epic", 
-    "Description": "A captain quest for vengeance against Moby Dick, a giant white sperm whale that bit off his leg on the ship's previous voyage", 
-    "Ratings": [ 5, 5 ] 
+  {
+    "Id": "10MobyDick",
+    "Maker": "@HermanMelville",
+    "img": "https://m.media-amazon.com/images/I/616R20nvohL._AC_UF1000,1000_QL80_.jpg",
+    "Url": "https://www.amazon.com/Moby-Dick-Melville-Classic-Illustrations/dp/B09PNLSK9G",
+    "Title": "Moby-Dick",
+    "Description": "A captain quest for vengeance against Moby Dick, a giant white sperm whale that bit off his leg on the ship\u0027s previous voyage",
+    "Ratings": [
+      5,
+      5
+    ],
+    "ProductType": 0,
+    "Quantity": 0,
+    "Price": 0,
+    "CommentList": []
   },
-
-  { 
-    "Id": "11Frankenstein", 
-    "Maker": "@MaryShelley", 
-    "img": "https://wordsworth-editions.com/wp-content/uploads/2022/07/9781840228342.jpg", 
-    "Url": "https://wordsworth-editions.com/book/frankenstein-collectors-edition/", 
-    "Title": "Frankenstein", 
-    "Author": "Mary Shelley", 
-    "Genre": "Horror", 
-    "Description": "Scientist creates a doomed monster", 
-    "Ratings": [ 5, 5 ] 
-   }
-
-  
+  {
+    "Id": "11Frankenstein",
+    "Maker": "@MaryShelley",
+    "img": "https://wordsworth-editions.com/wp-content/uploads/2022/07/9781840228342.jpg",
+    "Url": "https://wordsworth-editions.com/book/frankenstein-collectors-edition/",
+    "Title": "Frankenstein",
+    "Description": "Scientist creates a doomed monster",
+    "Ratings": [
+      5,
+      5
+    ],
+    "ProductType": 0,
+    "Quantity": 0,
+    "Price": 0,
+    "CommentList": []
+  },
+  {
+    "Id": "08TheMartian",
+    "Maker": null,
+    "img": "https://m.media-amazon.com/images/I/51QimqeXMXL._SL1200_.jpg",
+    "Url": "https://www.amazon.com/Martian-Novel-Andy-Weir/dp/0804139024",
+    "Title": "The Martian",
+    "Description": "Astronaut stranded in Mars",
+    "Ratings": null,
+    "ProductType": 0,
+    "Quantity": 0,
+    "Price": 0.00,
+    "CommentList": []
+  }
 ]
