@@ -1,15 +1,13 @@
-# ContosoCrafts
+# Book For You
 
-## Tutorial
+## Introduction
+### There's Always a Book That's Good For You
 
-- [ASP.NET Tutorial](https://dotnet.microsoft.com/learn/aspnet/hello-world-tutorial/intro)
+At Book For You, we believe that just like a nutritious meal or a good night's sleep, the right book can nourish your mind and soul. Our name is a gentle nod to the phrase "Good For You" because we are convinced that there's always a book out there that's perfect for you – a book that will enlighten, entertain, and inspire you.
 
-## Gists
+Whether you're seeking a thrilling adventure, a touching romance, a deep dive into history, or a fresh perspective on the world, we have a curated selection to meet your every need. Our shelves are filled with stories waiting to be discovered, knowledge ready to be unlocked, and journeys eager to begin.
 
-- [Gist](https://gist.github.com/bradygaster/3d1fcf43d1d1e73ea5d6c1b5aab40130) referenced in the videos
+## Technology
+#### Langage: C# HTML CSS
+#### Backend Framework: .NET Razor
 
-## YouTube Playlist
-
-- [ASP.NET Core 101](https://www.youtube.com/playlist?list=PLdo4fOcmZ0oW8nviYduHq7bmKode-p8Wy)
-
-13 part series
