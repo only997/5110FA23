@@ -48,7 +48,7 @@ for details on configuring this project to bundle and minify static web assets. 
 
 /* Style the back side */
 .flip-card-back {
-    background-color: white;
+    background-color: #D8AE7E;
     color: black;
     padding: 20px;
     transform: rotateY(180deg);
@@ -156,7 +156,8 @@ for details on configuring this project to bundle and minify static web assets. 
 
 /* This is the class used for card images on the home page */
 .card-img-top {
-    height: 23em;
+
+    height: 10px;
     vertical-align: bottom;
     background-position: center center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
@@ -287,10 +288,13 @@ html {
 
 body {
     /* Margin bottom by footer height */
-    margin-bottom: 60px;
-    background-image: url(../halloween.jpg);
-
+    margin-bottom: 100px;
+    background-image: url(../photo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
+
 
 h1 {
     font-family: 'Nunito', sans-serif;
@@ -313,14 +317,14 @@ ul {
     background: -webkit-linear-gradient(110deg, #e9a8a6 60%, # 60%);
     background: -o-linear-gradient(110deg, #FFA500 60%, #FFA500 60%);
     background: -moz-linear-gradient(110deg, #FFA500 60%, #FFA500 60%);
-    background: linear-gradient(110deg, #FFA500 75%, #000000 75%);
+    background: linear-gradient(90deg, #D8AE7E 75%, #000000 95%);
 }
 
 .bg-footer {
     background: -webkit-linear-gradient(110deg, #252152 60%, #e9a8a6 60%);
     background: -o-linear-gradient(110deg, #252152 60%, #e9a8a6 60%);
     background: -moz-linear-gradient(110deg, #252152 60%, #e9a8a6 60%);
-    background: linear-gradient(110deg, #E1E9E8 89%, #000000 89%);
+    background: linear-gradient(90deg, black 10%, #D8AE7E 45%);
 }
 
 .create-button {

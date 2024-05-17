@@ -17,7 +17,6 @@
 
   <ItemGroup>
     <None Include="..\.editorconfig" Link=".editorconfig" />
-    <None Include="wwwroot\halloween.jpg" />
   </ItemGroup>
 
   <ItemGroup>

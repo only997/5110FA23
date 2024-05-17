@@ -1,90 +1,164 @@
 [
   {
     "Id": "story-of-your-life",
-    "Maker":@Ted Chiang
-    "Title": "Story of Your Life",
-    "Author": "Ted Chiang",
+    "Maker": "@Ted-Chiang",
     "img": "https://m.media-amazon.com/images/I/51jAxe6vEnL._SY445_SX342_.jpg",
-    "Url":
     "Description": "A science fiction short story collection by Ted Chiang, including the famous 'Story of Your Life,' which was the basis for the movie Arrival.",
     "Genre": "Science Fiction",
     "Ratings": [ 5, 4, 5 ]
   },
   {
     "Id": "1984",
-    "Maker":@George Orwell
-    "Title": "1984",
-    "Author": "George Orwell",
+    "Maker": "@George-Orwell",
     "img": "https://m.media-amazon.com/images/I/41sjzA8EGhL._SY445_SX342_.jpg",
-    "Url": ""
+    "Url": "https://bookanalysis.com/george-orwell/1984/summary/#cls-video-container-QTEQi0L2",
+    "Title": "1984",
     "Description": "A dystopian social science fiction novel by George Orwell, depicting a totalitarian society under constant surveillance.",
-    "Genre": "Dystopian Fiction",
-    "Ratings": [ 5, 4, 5 ]
+    "Ratings": [
+      5,
+      4,
+      5
+    ],
+    "ProductType": 0,
+    "Quantity": 0,
+    "Price": 0,
+    "CommentList": []
   },
   {
     "Id": "the-moon-and-sixpence",
-    "Maker":@W. Somerset Maugham
-    "Title": "The Moon and Sixpence",
-    "Author": "W. Somerset Maugham",
+    "Maker": "@W. Somerset-Maugham",
     "img": "https://m.media-amazon.com/images/I/71YwYFObhCL._SY522_.jpg",
-    "Url":
+    "Url": "https://www.goodreads.com/book/show/44796.The_Moon_and_Sixpence",
+    "Title": "The Moon and Sixpence",
     "Description": "A novel by W. Somerset Maugham inspired by the life of the painter Paul Gauguin, following a protagonist who leaves his comfortable life to pursue his passion for painting.",
-    "Genre": "Fiction",
-    "Ratings": [ 5, 4, 5 ]
+    "Ratings": [
+      5,
+      4,
+      5
+    ],
+    "ProductType": 0,
+    "Quantity": 0,
+    "Price": 0,
+    "CommentList": []
   },
   {
     "Id": "stray-birds",
-    "Maker":@Rabindranath Tagore
-    "Title": "Stray Birds",
-    "Author": "Rabindranath Tagore",
+    "Maker": "@Rabindranath-Tagore",
     "img": "https://m.media-amazon.com/images/I/41vlWmdup5L._SY445_SX342_.jpg",
-    "Url":
+    "Url": "https://www.goodreads.com/book/show/166350.Stray_Birds?from_search=true\u0026from_srp=true\u0026qid=Dj35qstcAj\u0026rank=1",
+    "Title": "Stray Birds",
     "Description": "A collection of poems by Rabindranath Tagore that explores the beauty of nature, love, and the human spirit.",
-    "Genre": "Poetry",
-    "Ratings": [ 5, 4, 5 ]
-  }
+    "Ratings": [
+      5,
+      4,
+      5
+    ],
+    "ProductType": 0,
+    "Quantity": 0,
+    "Price": 0,
+    "CommentList": []
+  },
   {
-    "Id": "Fear-of-flying",
-    "Maker": "@erica jong",
-    "Title": "Fear-of-flying",
-    "Author": "Erica Jong",
-    "img": "https://m.media-amazon.com/images/I/51pW2G1PfEL._AC_UF1000,1000_QL80_.jpg",
-    "Url": 
-    "Description": "It's an anxiety disorder that causes people to experience intense fear or panic when flying or anticipating flying. This condition can interfere with someone's ability to travel for work or pleasure.",
-    "Genre": "Poetry",
-    "Ratings": [ 5, 4, 5 ]
-  }
+    "Id": "Dunes",
+    "Maker": "@Frank-Herbert",
+    "img": "https://images.thenile.io/r1000/9780593099322.jpg",
+    "Url": "https://bookanalysis.com/frank-herbert/dune/review/",
+    "Title": "Dunes",
+    "Description": "a story with refined literature, excellent characters, and a detailed description of events that makes it incredibly realistic",
+    "Ratings": [],
+    "ProductType": 0,
+    "Quantity": 0,
+    "Price": 0,
+    "CommentList": []
+  },
   {
-    "Id": "Letting-go",
-    "Maker": "@david, hawkins",
-    "Title": "Letting-Go",
-    "Author": "David, Hawkins",
-    "img": "https://archive.org/services/img/lettinggopathway0000hawk/full/pct:200/0/default.jpg",
-    "Url":
-    "Description": "Letting Go: is about how to move from feeling stuck to being happy and at peace",
-    "Genre": "Poetry",
-    "Ratings": [ 5, 4, 5 ]
-  }
+    "Id": "Killers of the Flower Moon",
+    "Maker": "@David Grann",
+    "img": "https://th.bing.com/th/id/R.c7865c6cdc9e1065f417755bd04e313e?rik=SpJJc0EAYi%2B4FA\u0026pid=ImgRaw\u0026r=0",
+    "Url": "https://www.amazon.com/Killers-Flower-Moon-Osage-Murders/dp/0385534248/ref=asc_df_0385534248?tag=bingshoppinga-20\u0026linkCode=df0\u0026hvadid=80745437135190\u0026hvnetw=o\u0026hvqmt=e\u0026hvbmt=be\u0026hvdev=c\u0026hvlocint=\u0026hvlocphy=\u0026hvtargid=pla-4584345029251773\u0026psc=1",
+    "Title": "Killers of the Flower Moon",
+    "Description": "In the 1920s, the Osage found themselves in a unique position among Native Americans tribes",
+    "Ratings": [],
+    "ProductType": 0,
+    "Quantity": 0,
+    "Price": 0,
+    "CommentList": []
+  },
   {
-    "Id": "One-morning-in-Maine",
-    "Maker": "@robert McCloskey",
-    "Title": "One-Morning-in-Maine",
-    "Author": "Robert McCloskey",
-    "img": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1388285302i/29288.jpg",
-    "Url":
-    "Description": "One Morning in Maine is a Caldecott Honor Book by Robert McCloskey about a young girl named Sal who learns about growing up after losing her first baby toot",
-    "Genre": "Poetry",
-    "Ratings": [ 5, 4, 5 ]
-  }
+    "Id": "Nineteen Eighty-Four",
+    "Maker": "@George Orwell",
+    "img": "https://www.penguinreaders.co.uk/wp-content/uploads/2020/04/9780241430972-1333x2048.jpg",
+    "Url": "https://www.penguinreaders.co.uk/ladybird-books/nineteen-eighty-four/",
+    "Title": "Nineteen Eighty-Four",
+    "Description": "Winston Smith re-writes history for the Ministry of Truth in Oceania",
+    "Ratings": [
+      2,
+      3
+    ],
+    "ProductType": 0,
+    "Quantity": 0,
+    "Price": 0,
+    "CommentList": []
+  },
   {
-    "Id": "By-any-other-name",
-    "Maker": "@erin cotter",
-    "Title": "By-any-other-name",
-    "Author": "Eric Cotter",
-    "img": "https://d28hgpri8am2if.cloudfront.net/book_images/onix/cvr9781665940719/by-any-other-name-9781665940719_hr.jpg",
-    "Url": 
-    "Description": "By Any Other Name is a contemporary romance novel by Lauren Kate about Lanie, a romance editor who gets promoted to editorial director if she can get the publisher's biggest author, Noa Callaway, to submit her late manuscript in three months",
-    "Genre": "Poetry",
-    "Ratings": [ 5, 4, 5 ]
+    "Id": "09Pride",
+    "Maker": "@JaneAusten",
+    "img": "https://s3.amazonaws.com/adg-bucket/pride-and-pejudice-jane-austen/3425-medium.jpg",
+    "Url": "https://www.andersondesigngroupstore.com/a/collections/literary-classics/pride-and-pejudice-jane-austen",
+    "Title": "Pride and Prejudice",
+    "Description": "Four sisters looking for marriage during Regency Era",
+    "Ratings": [
+      5,
+      5
+    ],
+    "ProductType": 0,
+    "Quantity": 0,
+    "Price": 0,
+    "CommentList": []
+  },
+  {
+    "Id": "10MobyDick",
+    "Maker": "@HermanMelville",
+    "img": "https://m.media-amazon.com/images/I/616R20nvohL._AC_UF1000,1000_QL80_.jpg",
+    "Url": "https://www.amazon.com/Moby-Dick-Melville-Classic-Illustrations/dp/B09PNLSK9G",
+    "Title": "Moby-Dick",
+    "Description": "A captain quest for vengeance against Moby Dick, a giant white sperm whale that bit off his leg on the ship\u0027s previous voyage",
+    "Ratings": [
+      5,
+      5
+    ],
+    "ProductType": 0,
+    "Quantity": 0,
+    "Price": 0,
+    "CommentList": []
+  },
+  {
+    "Id": "11Frankenstein",
+    "Maker": "@MaryShelley",
+    "img": "https://wordsworth-editions.com/wp-content/uploads/2022/07/9781840228342.jpg",
+    "Url": "https://wordsworth-editions.com/book/frankenstein-collectors-edition/",
+    "Title": "Frankenstein",
+    "Description": "Scientist creates a doomed monster",
+    "Ratings": [
+      5,
+      5
+    ],
+    "ProductType": 0,
+    "Quantity": 0,
+    "Price": 0,
+    "CommentList": []
+  },
+  {
+    "Id": "08TheMartian",
+    "Maker": null,
+    "img": "https://m.media-amazon.com/images/I/51QimqeXMXL._SL1200_.jpg",
+    "Url": "https://www.amazon.com/Martian-Novel-Andy-Weir/dp/0804139024",
+    "Title": "The Martian",
+    "Description": "Astronaut stranded in Mars",
+    "Ratings": null,
+    "ProductType": 0,
+    "Quantity": 0,
+    "Price": 0.00,
+    "CommentList": []
   }
 ]
