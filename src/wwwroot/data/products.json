@@ -43,4 +43,48 @@
     "Genre": "Poetry",
     "Ratings": [ 5, 4, 5 ]
   }
+  
+    "Id": "Fear-of-flying",
+    "Maker": "@erica jong",
+    "Title": "Fear-of-flying",
+    "Author": "Erica Jong",
+    "img": "https://m.media-amazon.com/images/I/51pW2G1PfEL._AC_UF1000,1000_QL80_.jpg",
+    "Url": 
+    "Description": "It's an anxiety disorder that causes people to experience intense fear or panic when flying or anticipating flying. This condition can interfere with someone's ability to travel for work or pleasure.",
+    "Genre": "Poetry",
+    "Ratings": [ 5, 4, 5 ]
+  }
+  {
+    "Id": "Letting-go",
+    "Maker": "@david, hawkins",
+    "Title": "Letting-Go",
+    "Author": "David, Hawkins",
+    "img": "https://archive.org/services/img/lettinggopathway0000hawk/full/pct:200/0/default.jpg",
+    "Url":
+    "Description": "Letting Go: is about how to move from feeling stuck to being happy and at peace",
+    "Genre": "Poetry",
+    "Ratings": [ 5, 4, 5 ]
+  }
+  {
+    "Id": "One-morning-in-Maine",
+    "Maker": "@robert McCloskey",
+    "Title": "One-Morning-in-Maine",
+    "Author": "Robert McCloskey",
+    "img": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1388285302i/29288.jpg",
+    "Url":
+    "Description": "One Morning in Maine is a Caldecott Honor Book by Robert McCloskey about a young girl named Sal who learns about growing up after losing her first baby toot",
+    "Genre": "Poetry",
+    "Ratings": [ 5, 4, 5 ]
+  }
+  {
+    "Id": "By-any-other-name",
+    "Maker": "@erin cotter",
+    "Title": "By-any-other-name",
+    "Author": "Eric Cotter",
+    "img": "https://d28hgpri8am2if.cloudfront.net/book_images/onix/cvr9781665940719/by-any-other-name-9781665940719_hr.jpg",
+    "Url": 
+    "Description": "By Any Other Name is a contemporary romance novel by Lauren Kate about Lanie, a romance editor who gets promoted to editorial director if she can get the publisher's biggest author, Noa Callaway, to submit her late manuscript in three months",
+    "Genre": "Poetry",
+    "Ratings": [ 5, 4, 5 ]
+  }
 ]
