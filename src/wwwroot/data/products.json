@@ -4,6 +4,7 @@
     "Maker": "@Ted-Chiang",
     "img": "https://m.media-amazon.com/images/I/51jAxe6vEnL._SY445_SX342_.jpg",
     "Description": "A science fiction short story collection by Ted Chiang, including the famous 'Story of Your Life,' which was the basis for the movie Arrival.",
+    "Title": "Story of Your Life",
     "Genre": "Science Fiction",
     "Ratings": [ 5, 4, 5 ]
   },
@@ -160,7 +161,7 @@
     "Quantity": 0,
     "Price": 0.00,
     "CommentList": []
-  }
+  },
   {
     "Id": "Fear-of-flying",
     "Maker": null,
@@ -171,7 +172,7 @@
     "Description": "It's an anxiety disorder that causes people to experience intense fear or panic when flying or anticipating flying. This condition can interfere with someone's ability to travel for work or pleasure.",
     "Genre": "Poetry",
     "Ratings": [ 5, 4, 5 ]
-}
+},
 {
   "Id": "Letting-go",
   "Maker": "@david, hawkins",
@@ -182,7 +183,7 @@
   "Description": "Letting Go: is about how to move from feeling stuck to being happy and at peace",
   "Genre": "Poetry",
   "Ratings": [ 5, 4, 5 ]
-}
+},
 {
   "Id": "One-morning-in-Maine",
   "Maker": "@robert McCloskey",
@@ -193,7 +194,7 @@
   "Description": "One Morning in Maine is a Caldecott Honor Book by Robert McCloskey about a young girl named Sal who learns about growing up after losing her first baby toot",
   "Genre": "Poetry",
   "Ratings": [ 5, 4, 5 ]
-}
+},
 {
   "Id": "By-any-other-name",
   "Maker": "@erin cotter",
