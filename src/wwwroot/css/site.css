@@ -196,10 +196,19 @@ a {
     color: #FFFF
 }
 
+/* More info btn */
+.btn-warning {
+    border: None;
+}
+
+.btn-yellow {
+    background: #F78CA2;
+}
+
 /*Glow effect for yellow buttons*/
 .btn-yellow:hover {
-    background: #FFFF00;
-    box-shadow: 0 0 5px #FFFF00, 0 0 25px #FFFF00, 0 0 50px #FFFF00, 0 0 200px #FFFF00;
+    background: #E9A8F2;
+    box-shadow: 0 0 5px #E9A8F2, 0 0 25px #E9A8F2, 0 0 50px #E9A8F2, 0 0 200px #E9A8F2;
 }
 
 /*Glow effect for green buttons*/
