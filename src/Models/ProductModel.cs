@@ -25,6 +25,9 @@ namespace ContosoCrafts.WebSite.Models
         //Getter and Setter of Title
         public string Title { get; set; }
 
+        //Getter and Setter of Author
+        public string Author { get; set; }
+
         //Getter and Setter of Description
         public string Description { get; set; }
 

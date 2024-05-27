@@ -3,10 +3,18 @@
     "Id": "story-of-your-life",
     "Maker": "@Ted-Chiang",
     "img": "https://m.media-amazon.com/images/I/51jAxe6vEnL._SY445_SX342_.jpg",
-    "Description": "A science fiction short story collection by Ted Chiang, including the famous 'Story of Your Life,' which was the basis for the movie Arrival.",
+    "Url": null,
     "Title": "Story of Your Life",
-    "Genre": "Science Fiction",
-    "Ratings": [ 5, 4, 5 ]
+    "Description": "A science fiction short story collection by Ted Chiang, including the famous \u0027Story of Your Life,\u0027 which was the basis for the movie Arrival.",
+    "Ratings": [
+      5,
+      4,
+      5
+    ],
+    "ProductType": 0,
+    "Quantity": 0,
+    "Price": 0,
+    "CommentList": []
   },
   {
     "Id": "1984",
@@ -163,47 +171,85 @@
     "CommentList": []
   },
   {
+    "Id": "Letting-go",
+    "Maker": "@david, hawkins",
+    "img": "https://archive.org/services/img/lettinggopathway0000hawk/full/pct:200/0/default.jpg",
+    "Url": null,
+    "Title": "Letting-Go",
+    "Description": "Letting Go: is about how to move from feeling stuck to being happy and at peace",
+    "Ratings": [
+      5,
+      4,
+      5
+    ],
+    "ProductType": 0,
+    "Quantity": 0,
+    "Price": 0,
+    "CommentList": []
+  },
+  {
+    "Id": "One-morning-in-Maine",
+    "Maker": "@robert McCloskey",
+    "img": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1388285302i/29288.jpg",
+    "Url": "https://www.amazon.com/One-Morning-Maine-Robert-McCloskey/dp/0670526274/ref=sr_1_1?crid=OX2J2U7TQ3HT\u0026dib=eyJ2IjoiMSJ9.ihx04mZH-8LPgO3Yjt876N949OF8i-pGy-YRDY3HnAs.0ewS0_YBylCjZMQ-D25kEOKEZdRe5YrvHXpxSjAxkBk\u0026dib_tag=se\u0026keywords=one\u002Bmorning\u002Bin\u002Bmarni\u0026qid=1715996126\u0026s=books\u0026sprefix=one\u002Bmorning\u002Bin\u002Bmarni%2Cstripbooks%2C196\u0026sr=1-1",
+    "Title": "One-Morning-in-Maine",
+    "Description": "One Morning in Maine is a Caldecott Honor Book by Robert McCloskey about a young girl named Sal who learns about growing up after losing her first baby toot",
+    "Ratings": [
+      5,
+      4,
+      5
+    ],
+    "ProductType": 0,
+    "Quantity": 0,
+    "Price": 0,
+    "CommentList": []
+  },
+  {
+    "Id": "By-any-other-name",
+    "Maker": "@erin cotter",
+    "img": "https://d28hgpri8am2if.cloudfront.net/book_images/onix/cvr9781665940719/by-any-other-name-9781665940719_hr.jpg",
+    "Url": "https://www.amazon.com/Any-Other-Name-Erin-Cotter/dp/1665940719/ref=sr_1_1?crid=T7RFHNC5M8FN\u0026dib=eyJ2IjoiMSJ9.QODNdETl1LKBdRi3S8STL_wMCZp2M1a5qSWAvucXSro.T7_X71XvTN6XX7Xz20bOFa9JjZdOM2IBhbnRkeAntp4\u0026dib_tag=se\u0026keywords=by\u002Bany\u002Bother\u002Bname\u002Bby\u002Berin\u002Bcotter\u0026qid=1715996218\u0026s=books\u0026sprefix=by\u002Bany\u002Bother\u002Bname\u002Bby\u002Berin\u002Bcotter%2Cstripbooks%2C201\u0026sr=1-1",
+    "Title": "By-any-other-name",
+    "Description": "By Any Other Name is a contemporary romance novel by Lauren Kate about Lanie, a romance editor who gets promoted to editorial director if she can get the publisher\u0027s biggest author, Noa Callaway, to submit her late manuscript in three months",
+    "Ratings": [
+      5,
+      4,
+      5
+    ],
+    "ProductType": 0,
+    "Quantity": 0,
+    "Price": 0,
+    "CommentList": [
+      {
+        "Id": "a62301f2-5e7b-4d5f-ba83-9879a296b491",
+        "Comment": "Test"
+      },
+      {
+        "Id": "bc50ab79-f70f-47aa-8635-00e07f58b4fe",
+        "Comment": "Hey"
+      }
+    ]
+  },
+  {
     "Id": "Fear-of-flying",
     "Maker": null,
-    "Title": "Fear-of-flying",
-    "Author": "Erica Jong",
     "img": "https://m.media-amazon.com/images/I/51pW2G1PfEL._AC_UF1000,1000_QL80_.jpg",
     "Url": "https://www.amazon.com/Fear-Flying-Penguin-Classics-Deluxe/dp/0143107356",
-    "Description": "It's an anxiety disorder that causes people to experience intense fear or panic when flying or anticipating flying. This condition can interfere with someone's ability to travel for work or pleasure.",
-    "Genre": "Poetry",
-    "Ratings": [ 5, 4, 5 ]
-},
-{
-  "Id": "Letting-go",
-  "Maker": "@david, hawkins",
-  "Title": "Letting-Go",
-  "Author": "David, Hawkins",
-  "img": "https://archive.org/services/img/lettinggopathway0000hawk/full/pct:200/0/default.jpg",
-  "Url": null,
-  "Description": "Letting Go: is about how to move from feeling stuck to being happy and at peace",
-  "Genre": "Poetry",
-  "Ratings": [ 5, 4, 5 ]
-},
-{
-  "Id": "One-morning-in-Maine",
-  "Maker": "@robert McCloskey",
-  "Title": "One-Morning-in-Maine",
-  "Author": "Robert McCloskey",
-  "img": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1388285302i/29288.jpg",
-  "Url":"https://www.amazon.com/One-Morning-Maine-Robert-McCloskey/dp/0670526274/ref=sr_1_1?crid=OX2J2U7TQ3HT&dib=eyJ2IjoiMSJ9.ihx04mZH-8LPgO3Yjt876N949OF8i-pGy-YRDY3HnAs.0ewS0_YBylCjZMQ-D25kEOKEZdRe5YrvHXpxSjAxkBk&dib_tag=se&keywords=one+morning+in+marni&qid=1715996126&s=books&sprefix=one+morning+in+marni%2Cstripbooks%2C196&sr=1-1",
-  "Description": "One Morning in Maine is a Caldecott Honor Book by Robert McCloskey about a young girl named Sal who learns about growing up after losing her first baby toot",
-  "Genre": "Poetry",
-  "Ratings": [ 5, 4, 5 ]
-},
-{
-  "Id": "By-any-other-name",
-  "Maker": "@erin cotter",
-  "Title": "By-any-other-name",
-  "Author": "Eric Cotter",
-  "img": "https://d28hgpri8am2if.cloudfront.net/book_images/onix/cvr9781665940719/by-any-other-name-9781665940719_hr.jpg",
-  "Url": "https://www.amazon.com/Any-Other-Name-Erin-Cotter/dp/1665940719/ref=sr_1_1?crid=T7RFHNC5M8FN&dib=eyJ2IjoiMSJ9.QODNdETl1LKBdRi3S8STL_wMCZp2M1a5qSWAvucXSro.T7_X71XvTN6XX7Xz20bOFa9JjZdOM2IBhbnRkeAntp4&dib_tag=se&keywords=by+any+other+name+by+erin+cotter&qid=1715996218&s=books&sprefix=by+any+other+name+by+erin+cotter%2Cstripbooks%2C201&sr=1-1" ,
-  "Description": "By Any Other Name is a contemporary romance novel by Lauren Kate about Lanie, a romance editor who gets promoted to editorial director if she can get the publisher's biggest author, Noa Callaway, to submit her late manuscript in three months",
-  "Genre": "Poetry",
-  "Ratings": [ 5, 4, 5 ]
-}
+    "Title": "Fear-of-flying",
+    "Description": "It\u0027s an anxiety disorder that causes people to experience intense fear or panic when flying or anticipating flying. This condition can interfere with someone\u0027s ability to travel for work or pleasure.",
+    "Ratings": [
+      5,
+      4,
+      5
+    ],
+    "ProductType": 0,
+    "Quantity": 0,
+    "Price": 0,
+    "CommentList": [
+      {
+        "Id": "51690b92-82bd-4e90-b6f2-b6699c51f921",
+        "Comment": "Test"
+      }
+    ]
+  }
 ]
