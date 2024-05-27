@@ -171,6 +171,7 @@ h5 {
     object-fit: cover;
 }
 
+/* header section */
 .navbar-brand {
     white-space: normal;
     font-family: Georgia, serif;
@@ -178,6 +179,10 @@ h5 {
     font-size: xx-large;
     text-align: center;
     word-break: break-all;
+}
+
+.nav-item {
+    font-family: Georgia, sans-serif;
 }
 
 /* This is the class used for contents in read page.*/
@@ -204,18 +209,42 @@ a {
 }
 
 /* More info btn */
-.btn-warning {
-    border: None;
+
+.btn-danger {
+    border-color: #EF9595;
+    background-color: #EF9595;
+}
+.btn-success {
+    border-color: #D8AE7E;
+    background-color: #D8AE7E;
 }
 
-.btn-yellow {
-    background: #F78CA2;
+.btn-warning {
+    border-color: #FFE569;
+    background-color: #FFE569;
+}
+
+/* search box */
+input[type="text"] {
+    border-radius: 15px;
+    outline: none; 
+    padding: 6px;
+}
+
+.col {
+    justify-content: center;
+    text-align: center;
 }
 
 /*Glow effect for yellow buttons*/
+.btn-success:hover {
+    border-color: #C38154;
+    background-color: #C38154;
+}
 .btn-yellow:hover {
-    background: #E9A8F2;
-    box-shadow: 0 0 5px #E9A8F2, 0 0 25px #E9A8F2, 0 0 50px #E9A8F2, 0 0 200px #E9A8F2;
+    border-color: #FFC26F;
+    background: #FFC26F;
+    box-shadow: 0 0 5px #FFC26F, 0 0 25px #FFC26F, 0 0 50px #FFC26F, 0 0 200px #FFC26F;
 }
 
 /*Glow effect for green buttons*/
@@ -317,6 +346,12 @@ h1 {
     color:white;
 }
 
+tr td {
+    font-family: monospace, sans-serif;
+    font-weight: 800;
+}
+
+
 ul {
     font-family: 'Nunito', sans-serif;
 }
@@ -365,4 +400,7 @@ ul {
 .card-img1 {
     height: 330px;
     width: 330px;
+}
+table, tr, td {
+    border: none;
 }
