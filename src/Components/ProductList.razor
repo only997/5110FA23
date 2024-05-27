@@ -12,8 +12,9 @@
             <input type="text" @onchange="(e) => UpdateFilterText(e.Value.ToString())" value="@FilterDataString" />
             <button @onclick="(e => EnableFilterData())" class="btn btn-success">Filter</button>
             <button @onclick="(e => ClearFilterData())" class="btn btn-danger">Clear</button>
-            <button @onclick="(e => ClearFilterData())" class="btn btn-primary float-right">Sort by Title</button>
-            <button @onclick="(e => ClearFilterData())" class="btn btn-primary float-right">Sort by Author</button>
+            <button @onclick="(e => SetFlagToAuthor())" class="btn btn-primary float-right">Sort by Author</button>
+            <button @onclick="(e => SetFlagToTitle())" class="btn btn-primary float-right">Sort by Title</button>
+
         </div>
     </div>
 </div>
@@ -21,7 +22,17 @@
 <div class="row hidden-md-up">
     @{
         var productList = ProductService.GetAllData();
-        productList = productList.OrderBy(m => m.Title);
+
+        // If Sort By Author Button is selected, then the tiles should be shown in alphabetical order
+        if (SortByAuthor)
+        {
+            productList = productList.OrderBy(m => m.Author);
+
+        }
+        else
+        {
+            productList = productList.OrderBy(m => m.Title);
+        }
 
         // If filter is enabled, reduce the data set to the filter string
         if (FilterData)
@@ -167,12 +178,13 @@
     string selectedProductId;
     string FilterDataString = "";
     bool FilterData = false;
+    bool SortByAuthor = false;
 
     void SelectProduct(string productId)
     {
-      selectedProductId = productId;
-      selectedProduct = ProductService.GetAllData().First(x => x.Id == productId);
-      GetCurrentRating();
+        selectedProductId = productId;
+        selectedProduct = ProductService.GetAllData().First(x => x.Id == productId);
+        GetCurrentRating();
     }
 
     int currentRating = 0;
@@ -181,22 +193,22 @@
 
     void GetCurrentRating()
     {
-      if(selectedProduct.Ratings == null)
-      {
-        currentRating = 0;
-        voteCount = 0;
-      }
-      else
-      {
-        voteCount = selectedProduct.Ratings.Count();
-        voteLabel = voteCount > 1 ? "Votes" : "Vote";
-        currentRating = selectedProduct.Ratings.Sum() / voteCount;
-      }
+        if(selectedProduct.Ratings == null)
+        {
+            currentRating = 0;
+            voteCount = 0;
+        }
+        else
+        {
+            voteCount = selectedProduct.Ratings.Count();
+            voteLabel = voteCount > 1 ? "Votes" : "Vote";
+            currentRating = selectedProduct.Ratings.Sum() / voteCount;
+        }
 
-      System.Console.WriteLine($"Current rating for {selectedProduct.Id}: {currentRating}");
+        System.Console.WriteLine($"Current rating for {selectedProduct.Id}: {currentRating}");
     }
 
-        // New Comment Flag to show the input box or not
+    // New Comment Flag to show the input box or not
     bool NewComment = false;
 
     // Next Comment Text is what the comment text is
@@ -261,6 +273,15 @@
         FilterData = false;
     }
 
+    void SetFlagToTitle()
+    {
+        SortByAuthor = false;
+    }
+
+    void SetFlagToAuthor()
+    {
+        SortByAuthor = true;
+    }
 
     void SubmitRating(int rating)
     {

@@ -11,7 +11,7 @@ namespace ContosoCrafts.WebSite.Models
     {
         //Getter and Setter of Id
         public string Id { get; set; }
-
+        
         //Getter and Setter of Maker who made the product
         public string Maker { get; set; }
 
