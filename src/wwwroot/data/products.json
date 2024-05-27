@@ -5,6 +5,8 @@
     "img": "https://m.media-amazon.com/images/I/51jAxe6vEnL._SY445_SX342_.jpg",
     "Url": null,
     "Title": "Story of Your Life",
+    "Author": "Chiang, Ted",
+    "Genre": "Science Fiction",
     "Description": "A science fiction short story collection by Ted Chiang, including the famous \u0027Story of Your Life,\u0027 which was the basis for the movie Arrival.",
     "Ratings": [
       5,
@@ -22,6 +24,8 @@
     "img": "https://m.media-amazon.com/images/I/41sjzA8EGhL._SY445_SX342_.jpg",
     "Url": "https://bookanalysis.com/george-orwell/1984/summary/#cls-video-container-QTEQi0L2",
     "Title": "1984",
+    "Author": "Orwell, George",
+    "Genre": "Science Fiction",
     "Description": "A dystopian social science fiction novel by George Orwell, depicting a totalitarian society under constant surveillance.",
     "Ratings": [
       5,
@@ -39,6 +43,8 @@
     "img": "https://m.media-amazon.com/images/I/71YwYFObhCL._SY522_.jpg",
     "Url": "https://www.goodreads.com/book/show/44796.The_Moon_and_Sixpence",
     "Title": "The Moon and Sixpence",
+    "Author": "Somerset-Maugham, W.",
+    "Genre": "Fiction",
     "Description": "A novel by W. Somerset Maugham inspired by the life of the painter Paul Gauguin, following a protagonist who leaves his comfortable life to pursue his passion for painting.",
     "Ratings": [
       5,
@@ -56,6 +62,8 @@
     "img": "https://m.media-amazon.com/images/I/41vlWmdup5L._SY445_SX342_.jpg",
     "Url": "https://www.goodreads.com/book/show/166350.Stray_Birds?from_search=true\u0026from_srp=true\u0026qid=Dj35qstcAj\u0026rank=1",
     "Title": "Stray Birds",
+    "Author": "Tagore, Rabindranath",
+    "Genre": "Poetry"
     "Description": "A collection of poems by Rabindranath Tagore that explores the beauty of nature, love, and the human spirit.",
     "Ratings": [
       5,
@@ -73,6 +81,8 @@
     "img": "https://images.thenile.io/r1000/9780593099322.jpg",
     "Url": "https://bookanalysis.com/frank-herbert/dune/review/",
     "Title": "Dune",
+    "Author": "Hebert, Frank",
+    "Genre": "Science Fiction",
     "Description": "What if Challengers were set in the dessert and tennis is the sandworm",
     "Ratings": [],
     "ProductType": 0,
@@ -86,6 +96,8 @@
     "img": "https://th.bing.com/th/id/R.c7865c6cdc9e1065f417755bd04e313e?rik=SpJJc0EAYi%2B4FA\u0026pid=ImgRaw\u0026r=0",
     "Url": "https://www.amazon.com/Killers-Flower-Moon-Osage-Murders/dp/0385534248/ref=asc_df_0385534248?tag=bingshoppinga-20\u0026linkCode=df0\u0026hvadid=80745437135190\u0026hvnetw=o\u0026hvqmt=e\u0026hvbmt=be\u0026hvdev=c\u0026hvlocint=\u0026hvlocphy=\u0026hvtargid=pla-4584345029251773\u0026psc=1",
     "Title": "Killers of the Flower Moon",
+    "Author": "Grann, David",
+    "Genre": "Western",
     "Description": "In the 1920s, the Osage found themselves in a unique position among Native Americans tribes",
     "Ratings": [],
     "ProductType": 0,
@@ -99,6 +111,8 @@
     "img": "https://www.penguinreaders.co.uk/wp-content/uploads/2020/04/9780241430972-1333x2048.jpg",
     "Url": "https://www.penguinreaders.co.uk/ladybird-books/nineteen-eighty-four/",
     "Title": "Nineteen Eighty-Four",
+    "Author": "Orwell, George",
+    "Genre": "Science Fiction",
     "Description": "Winston Smith re-writes history for the Ministry of Truth in Oceania",
     "Ratings": [
       2,
@@ -115,6 +129,8 @@
     "img": "https://s3.amazonaws.com/adg-bucket/pride-and-pejudice-jane-austen/3425-medium.jpg",
     "Url": "https://www.andersondesigngroupstore.com/a/collections/literary-classics/pride-and-pejudice-jane-austen",
     "Title": "Pride and Prejudice",
+    "Author": "Austen, Jane",
+    "Genre": "Romance",
     "Description": "Four sisters looking for marriage during Regency Era",
     "Ratings": [
       5,
@@ -131,6 +147,8 @@
     "img": "https://m.media-amazon.com/images/I/616R20nvohL._AC_UF1000,1000_QL80_.jpg",
     "Url": "https://www.amazon.com/Moby-Dick-Melville-Classic-Illustrations/dp/B09PNLSK9G",
     "Title": "Moby-Dick",
+    "Author": "Melville, Herman",
+    "Genre": "Adventure Fiction",
     "Description": "A captain quest for vengeance against Moby Dick, a giant white sperm whale that bit off his leg on the ship\u0027s previous voyage",
     "Ratings": [
       5,
@@ -147,6 +165,8 @@
     "img": "https://wordsworth-editions.com/wp-content/uploads/2022/07/9781840228342.jpg",
     "Url": "https://wordsworth-editions.com/book/frankenstein-collectors-edition/",
     "Title": "Frankenstein",
+    "Author": "Shelly, Mary",
+    "Genre": "Science Fiction",
     "Description": "Scientist creates a doomed monster",
     "Ratings": [
       5,
@@ -163,6 +183,8 @@
     "img": "https://m.media-amazon.com/images/I/51QimqeXMXL._SL1200_.jpg",
     "Url": "https://www.amazon.com/Martian-Novel-Andy-Weir/dp/0804139024",
     "Title": "The Martian",
+    "Author": "Weir, Andy",
+    "Genre": "Science Fiction",
     "Description": "Astronaut stranded in Mars",
     "Ratings": null,
     "ProductType": 0,
@@ -176,6 +198,8 @@
     "img": "https://archive.org/services/img/lettinggopathway0000hawk/full/pct:200/0/default.jpg",
     "Url": null,
     "Title": "Letting-Go",
+    "Author": "Hawkins, David",
+    "Genre": "Self-Help",
     "Description": "Letting Go: is about how to move from feeling stuck to being happy and at peace",
     "Ratings": [
       5,
@@ -193,6 +217,8 @@
     "img": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1388285302i/29288.jpg",
     "Url": "https://www.amazon.com/One-Morning-Maine-Robert-McCloskey/dp/0670526274/ref=sr_1_1?crid=OX2J2U7TQ3HT\u0026dib=eyJ2IjoiMSJ9.ihx04mZH-8LPgO3Yjt876N949OF8i-pGy-YRDY3HnAs.0ewS0_YBylCjZMQ-D25kEOKEZdRe5YrvHXpxSjAxkBk\u0026dib_tag=se\u0026keywords=one\u002Bmorning\u002Bin\u002Bmarni\u0026qid=1715996126\u0026s=books\u0026sprefix=one\u002Bmorning\u002Bin\u002Bmarni%2Cstripbooks%2C196\u0026sr=1-1",
     "Title": "One-Morning-in-Maine",
+    "Author": "Hebert, Frank",
+    "Genre": "Childrens Science Fiction",
     "Description": "One Morning in Maine is a Caldecott Honor Book by Robert McCloskey about a young girl named Sal who learns about growing up after losing her first baby toot",
     "Ratings": [
       5,
@@ -210,6 +236,8 @@
     "img": "https://d28hgpri8am2if.cloudfront.net/book_images/onix/cvr9781665940719/by-any-other-name-9781665940719_hr.jpg",
     "Url": "https://www.amazon.com/Any-Other-Name-Erin-Cotter/dp/1665940719/ref=sr_1_1?crid=T7RFHNC5M8FN\u0026dib=eyJ2IjoiMSJ9.QODNdETl1LKBdRi3S8STL_wMCZp2M1a5qSWAvucXSro.T7_X71XvTN6XX7Xz20bOFa9JjZdOM2IBhbnRkeAntp4\u0026dib_tag=se\u0026keywords=by\u002Bany\u002Bother\u002Bname\u002Bby\u002Berin\u002Bcotter\u0026qid=1715996218\u0026s=books\u0026sprefix=by\u002Bany\u002Bother\u002Bname\u002Bby\u002Berin\u002Bcotter%2Cstripbooks%2C201\u0026sr=1-1",
     "Title": "By-any-other-name",
+    "Author": "Cotter, Erin",
+    "Genre": "Myster",
     "Description": "By Any Other Name is a contemporary romance novel by Lauren Kate about Lanie, a romance editor who gets promoted to editorial director if she can get the publisher\u0027s biggest author, Noa Callaway, to submit her late manuscript in three months",
     "Ratings": [
       5,
@@ -236,6 +264,8 @@
     "img": "https://m.media-amazon.com/images/I/51pW2G1PfEL._AC_UF1000,1000_QL80_.jpg",
     "Url": "https://www.amazon.com/Fear-Flying-Penguin-Classics-Deluxe/dp/0143107356",
     "Title": "Fear-of-flying",
+    "Author": "Jong, Erica",
+    "Genre": "Romance",
     "Description": "It\u0027s an anxiety disorder that causes people to experience intense fear or panic when flying or anticipating flying. This condition can interfere with someone\u0027s ability to travel for work or pleasure.",
     "Ratings": [
       5,
