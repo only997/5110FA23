@@ -11,3 +11,15 @@ Whether you're seeking a thrilling adventure, a touching romance, a deep dive in
 #### Langage: C# HTML CSS
 #### Backend Framework: .NET Razor
 
+
+## Overview 
+### Main Page
+![image](https://github.com/only997/5110FA23/assets/114901461/b87a98f0-29a9-4d8a-97e9-f9deab27c6dd)
+
+### Edit Page
+![image](https://github.com/only997/5110FA23/assets/114901461/8d734f60-189d-46ac-93b9-993b26c8ef80)
+
+### Privacy Page
+![image](https://github.com/only997/5110FA23/assets/114901461/4a5fdadc-a1ac-4969-b04d-af192fa04f41)
+
+
